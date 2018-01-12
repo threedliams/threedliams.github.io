@@ -1,0 +1,72 @@
+{
+	"test-title-1": {
+		"title": "Test Title 1",
+		"filename": "test",
+		"tags": [
+			"test"
+		]
+	},
+	"test-title-2": {
+		"title": "Test Title 2",
+		"filename": "test2",
+		"tags": [
+			"test"
+		]
+	},
+	"broken-bootloader": {
+		"title": "Broken Bootloader",
+		"filename": "broken-bootloader",
+		"tags": [
+			"development",
+			"os-dev"
+		]
+	},
+	"old-roguelike-project": {
+		"title": "Old Roguelike Project",
+		"filename": "old-roguelike-project",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	},
+	"cosmic-insurgence-new-project": {
+		"title": "Cosmic Insurgence (New Project)",
+		"filename": "cosmic-insurgence-new-project",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	},
+	"cosmic-insurgence-update-0-0-02": {
+		"title": "Cosmic Insurgence Update 0.0.02",
+		"filename": "cosmic-insurgence-update-0-0-02",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	},
+	"cosmic-insurgence-update-0-0-03": {
+		"title": "Cosmic Insurgence Update 0.0.03",
+		"filename": "cosmic-insurgence-update-0-0-03",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	},
+	"cosmic-insurgence-update-0-0-04": {
+		"title": "Cosmic Insurgence Update 0.0.04",
+		"filename": "cosmic-insurgence-update-0-0-04",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	},
+	"cosmic-insurgence-update-0-0-05": {
+		"title": "Cosmic Insurgence Update 0.0.05",
+		"filename": "cosmic-insurgence-update-0-0-05",
+		"tags": [
+			"development",
+			"game-dev"
+		]
+	}
+}
