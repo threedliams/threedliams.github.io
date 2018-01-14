@@ -1,12 +1,6 @@
-export function loadPost(post) {
+export function setPost(post) {
 	return {
-		type: 'LOAD_POST',
+		type: 'SET_POST',
 		post
-	};
-}
-
-export function loadPostListFromJSON() {
-	return {
-		type: 'LOAD_POST_LIST_FROM_JSON'
 	};
 }

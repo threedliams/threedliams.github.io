@@ -7,18 +7,11 @@ const ReactMarkdown = require('react-markdown');
 const createReactClass = require('create-react-class');
 
 export const Post = createReactClass({
-	componentDidMount: function() {
-		var key = this.props.routeParams.key;
-
-		document.title = this.props.postList[key].title;
-
-	},
 	render: function() {
-		var key = this.props.routeParams.key;
-		var tags = this.props.postList[key].tags;
+		document.title = this.props.title;
 
 		var tagLinks = [];
-		tags.forEach(function(tag) {
+		this.props.tags.forEach(function(tag) {
 			tagLinks.push(<div key={tag}><TagLink tag={tag} /></div>);
 		});
 		if (tagLinks.length === 0) {
@@ -27,7 +20,7 @@ export const Post = createReactClass({
 
 		return (
 			<div>
-				<ReactMarkdown source={this.props.postList[key].bodyText} />
+				<ReactMarkdown source={this.props.bodyText} />
 				<div>Tags:</div>
 				<div>{tagLinks}</div>
 			</div>
@@ -36,8 +29,11 @@ export const Post = createReactClass({
 });
 
 function mapStateToProps(state) {
+	debugger;
 	return {
-		postList: state.get('postList')
+		title: state.getIn(['post', 'title']),
+		bodyText: state.getIn(['post', 'bodyText']),
+		tags: state.getIn(['post', 'tags'])
 	};
 }
 

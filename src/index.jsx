@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 import {Provider} from 'react-redux';
 import reducer from './redux_store/reducer';
-import {PostContainer} from './components/Post';
+import {PostMountContainer} from './components/PostMount';
 import {PostListContainer} from './components/PostList';
 import {createStore} from 'redux';
 import App from './components/App';
@@ -15,6 +15,13 @@ import About from './components/About';
 import txt from '../pages/about.markdown';
 
 const store = createStore(reducer);
+
+store.dispatch({
+	type: 'SET_POST_MAP',
+	postMap: require('../pages/posts/posts.json')
+});
+
+// console.log(store.getState());
 
 // store.dispatch({
 // 	type: 'LOAD_POST',
@@ -37,7 +44,7 @@ const store = createStore(reducer);
 // 		}
 // 	]
 // });
-console.log(store.getState().get("postList"));
+// console.log(store.getState().get("postList"));
 
 // var postComponents = {};
 // for (var key in store.getState().get("postList")) {
@@ -48,7 +55,7 @@ console.log(store.getState().get("postList"));
 const routes = <Route component={App}>
 	<Route path="/" component={HomePage} />
 	<Route path="/post-list(/:tag)" component={PostListContainer} />
-	<Route path="/post/:key" component={PostContainer} />
+	<Route path="/post/:key" component={PostMountContainer} />
 	<Route path="/about" component={About} />
 	<Route path="/projects" component={Projects} />
 	<Route path="/resume" component={Resume} />

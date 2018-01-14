@@ -1,0 +1,16 @@
+{
+	"test-title-1": {
+		"title": "Test Title 1",
+		"filename": "test",
+		"tags": [
+			"test"
+		]
+    },
+	"test-title-2": {
+		"title": "Test Title 2",
+		"filename": "test2",
+		"tags": [
+			"test2"
+		]
+    }
+}

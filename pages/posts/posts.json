@@ -1,14 +1,14 @@
 {
 	"test-title-1": {
 		"title": "Test Title 1",
-		"filename": "test",
+		"filename": "post1",
 		"tags": [
 			"test"
 		]
 	},
 	"test-title-2": {
 		"title": "Test Title 2",
-		"filename": "test2",
+		"filename": "post2",
 		"tags": [
 			"test"
 		]

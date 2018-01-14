@@ -10,19 +10,14 @@ export const PostList = createReactClass({
 	},
 	render: function() {
 		var postLinks = [];
-
-		// for (var i = 0; i < this.props.postList.size; i++) {
-		// 	var filename = this.props.postList.get(i).get('filename');
-		// 	var title = this.props.postList.get(i).get('title');
-		// 	postLinks.push(<li key={i}><PostLink filename={filename} title={title} /></li>);
-		// }
 		var tag = this.props.routeParams.tag;
+		var postMap = this.props.postMap.keySeq().toArray();
 
-		for (var listKey in this.props.postList) {
-			var title = this.props.postList[listKey].title;
+		postMap.forEach(listKey => {
+			var title = this.props.postMap.get(listKey).get('title');
 
 			if (tag) {
-				var postTags = this.props.postList[listKey].tags;
+				var postTags = this.props.postMap.get(listKey).get('tags');
 				if (postTags.indexOf(tag) > -1) {
 					postLinks.push(<li key={listKey}><PostLink listKey={listKey} title={title} /></li>);
 				}
@@ -30,7 +25,7 @@ export const PostList = createReactClass({
 			else {
 				postLinks.push(<li key={listKey}><PostLink listKey={listKey} title={title} /></li>);
 			}
-		}
+		});
 
 		return <ul>{postLinks}</ul>;
 	}
@@ -38,7 +33,7 @@ export const PostList = createReactClass({
 
 function mapStateToProps(state) {
 	return {
-		postList: state.get('postList')
+		postMap: state.get('postMap')
 	};
 }
 
