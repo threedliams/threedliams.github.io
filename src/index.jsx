@@ -21,36 +21,6 @@ store.dispatch({
 	postMap: require('../pages/posts/posts.json')
 });
 
-// console.log(store.getState());
-
-// store.dispatch({
-// 	type: 'LOAD_POST',
-// 	post: {
-// 		title: "Test title",
-// 		filename: "test"
-// 	}
-// });
-
-// store.dispatch({
-// 	type: 'LOAD_POST_LIST',
-// 	postList: [
-// 		{
-// 			title: "Test title1",
-// 			filename: "./posts/test.markdown"
-// 		},
-// 		{
-// 			title: "Test title2",
-// 			filename: "./posts/test2.markdown"
-// 		}
-// 	]
-// });
-// console.log(store.getState().get("postList"));
-
-// var postComponents = {};
-// for (var key in store.getState().get("postList")) {
-// 	postComponents[key] = <Post />;
-// }
-
 
 const routes = <Route component={App}>
 	<Route path="/" component={HomePage} />

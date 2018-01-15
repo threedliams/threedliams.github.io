@@ -1,23 +1,19 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import * as actionCreators from '../action_creators';
-import {PostContainer} from './Post';
+import Post from './Post';
 
 const createReactClass = require('create-react-class');
 
 export const PostMount = createReactClass({
-    componentWillMount: function () {
+    render: function() {
         var key = this.props.routeParams.key;
         var post = this.props.postMap.get(key);
-
-        this.props.setPost({
-            title: post.get('title'),
-            tags: post.get('tags'),
-            bodyText: require('../../pages/posts/' + post.get('filename') + '.markdown')
-        });
-    },
-    render: function() {
-        return <PostContainer />;
+        return <Post 
+            title={post.get('title')}
+            tags={post.get('tags')}
+            bodyText={require('../../pages/posts/' + post.get('filename') + '.markdown')}
+        />;
     }
 });
 

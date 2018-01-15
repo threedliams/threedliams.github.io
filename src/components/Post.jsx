@@ -1,12 +1,10 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import * as actionCreators from '../action_creators';
 import TagLink from './TagLink';
 
 const ReactMarkdown = require('react-markdown');
 const createReactClass = require('create-react-class');
 
-export const Post = createReactClass({
+export default createReactClass({
 	render: function() {
 		document.title = this.props.title;
 
@@ -27,18 +25,4 @@ export const Post = createReactClass({
 		);
 	}
 });
-
-function mapStateToProps(state) {
-	debugger;
-	return {
-		title: state.getIn(['post', 'title']),
-		bodyText: state.getIn(['post', 'bodyText']),
-		tags: state.getIn(['post', 'tags'])
-	};
-}
-
-export const PostContainer = connect(
-	mapStateToProps,
-	actionCreators
-)(Post);
 
