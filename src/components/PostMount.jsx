@@ -6,6 +6,7 @@ import Post from './Post';
 const createReactClass = require('create-react-class');
 
 export const PostMount = createReactClass({
+    // TODO: post not found
     render: function() {
         var key = this.props.routeParams.key;
         var post = this.props.postMap.get(key);

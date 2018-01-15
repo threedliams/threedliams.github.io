@@ -8,10 +8,13 @@ export default createReactClass({
 	render: function() {
 		document.title = this.props.title;
 
+		var tags = this.props.tags;
 		var tagLinks = [];
-		this.props.tags.forEach(function(tag) {
-			tagLinks.push(<div key={tag}><TagLink tag={tag} /></div>);
-		});
+		if (tags) {
+			tags.forEach(function(tag) {
+				tagLinks.push(<div key={tag}><TagLink tag={tag} /></div>);
+			});
+		}
 		if (tagLinks.length === 0) {
 			tagLinks = "None";
 		}

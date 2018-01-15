@@ -16,9 +16,12 @@ export const PostList = createReactClass({
 		postMap.forEach(listKey => {
 			var title = this.props.postMap.get(listKey).get('title');
 
+			// TODO: tag not found
 			if (tag) {
 				var postTags = this.props.postMap.get(listKey).get('tags');
-				if (postTags.indexOf(tag) > -1) {
+				if (
+					postTags
+					&& postTags.indexOf(tag) > -1) {
 					postLinks.push(<li key={listKey}><PostLink listKey={listKey} title={title} /></li>);
 				}
 			}
