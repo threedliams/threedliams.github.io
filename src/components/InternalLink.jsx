@@ -4,7 +4,7 @@ import {Link} from 'react-router';
 const createReactClass = require('create-react-class');
 
 export default createReactClass({
-	render: function() {
-		return <Link to={"/post/" + this.props.listKey}>{this.props.title}</Link>;
-	}
+    render: function() {
+        return <Link to={this.props.location}>{this.props.title}</Link>
+    }
 });

@@ -10,7 +10,7 @@ Here's a quick changelog before I dive in:
 - Added global gameState class to keep track of general game state, and allow triggers to modify the game state. Currently only holds the player.
 - Resource totals for quarks, intel and might added to main screen for testing purposes.
 
-The most exciting part of this is definitely the triggers, as everything else was just back end added to make sure that the triggers are working. The current syntax is available in [the documentation](https://docs.google.com/document/d/1t5JyF784eOo306nBhfgyesnclszBi4_v6MfXisRnw4k/edit?usp=sharing). I'm not sure how clear this really is, or if this will even be the final version, I haven't played around with it enough to see if it works well. In any case, here's a sample file for clarification:
+The most exciting part of this is definitely the triggers, as everything else was just back end added to make sure that the triggers are working. The current syntax is available in the documentation (Removed an edit link to my personal google drive here. Sorry, but that was a weird idea. I'll add it back in some other form later.). I'm not sure how clear this really is, or if this will even be the final version, I haven't played around with it enough to see if it works well. In any case, here's a sample file for clarification:
 
 <name>Sample Event</name>  
 <img>Data/images/sampleImage.bmp</img>  

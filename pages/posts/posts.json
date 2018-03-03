@@ -1,24 +1,10 @@
 {
-	"test-title-1": {
-		"title": "Test Title 1",
-		"filename": "post1",
-		"tags": [
-			"test"
-		]
-	},
-	"test-title-2": {
-		"title": "Test Title 2",
-		"filename": "post2",
-		"tags": [
-			"test"
-		]
-	},
-	"broken-bootloader": {
-		"title": "Broken Bootloader",
-		"filename": "broken-bootloader",
+	"why-rebuild": {
+		"title": "Why Rebuild?",
+		"filename": "why-rebuild",
 		"tags": [
 			"development",
-			"os-dev"
+			"web-dev"
 		]
 	},
 	"old-roguelike-project": {
@@ -27,6 +13,14 @@
 		"tags": [
 			"development",
 			"game-dev"
+		]
+	},
+	"broken-bootloader": {
+		"title": "Broken Bootloader",
+		"filename": "broken-bootloader",
+		"tags": [
+			"development",
+			"os-dev"
 		]
 	},
 	"cosmic-insurgence-new-project": {

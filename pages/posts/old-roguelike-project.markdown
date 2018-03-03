@@ -1,12 +1,6 @@
 A while back I worked on a roguelike project with a friend, which unfortunately has been put on hold for the time being, but I figured I'd show off some of the cool things we got done before we moved on.
 
-First off, here are the links to the Design Outline and Design Schedule:
-
-[Design Outline](https://docs.google.com/document/d/1HTeFUFN2jtsJp0dz_KSbObui2KouDlnlqyMYqEJsVas/edit?usp=sharing)
-
-[Design Schedule](https://docs.google.com/document/d/19jkcKVm0c2X_802pKi3qG-oW32mC049u11vHhXovUTQ/edit?usp=sharing)
-
-As you can see from the design doc, our main focus was on the idea of "mutations" as a primary game mechanic. We always found mutations in other roguelikes to be the most interesting and fun parts, so we figured, why not try to make a full game based on a more fleshed out mutation mechanic? Unfortunately because of how busy we got with school and work, we never really got far enough to put the mutations in place.
+Our main focus was on the idea of "mutations" as a primary game mechanic. We always found mutations in other roguelikes to be the most interesting and fun parts, so we figured, why not try to make a full game based on a more fleshed out mutation mechanic? Unfortunately because of how busy we got with school and work, we never really got far enough to put the mutations in place.
 
 However, we did manage to code a good amount of a basic roguelike engine using the windows version of PDCurses for graphics. I put together a couple gifs to show off some of the different features we got done:
 

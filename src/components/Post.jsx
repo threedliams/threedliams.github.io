@@ -1,5 +1,6 @@
 import React from 'react';
-import TagLink from './TagLink';
+import InternalLink from './InternalLink';
+import TopBar from './TopBar';
 
 const ReactMarkdown = require('react-markdown');
 const createReactClass = require('create-react-class');
@@ -12,7 +13,7 @@ export default createReactClass({
 		var tagLinks = [];
 		if (tags) {
 			tags.forEach(function(tag) {
-				tagLinks.push(<div key={tag}><TagLink tag={tag} /></div>);
+				tagLinks.push(<div key={tag}><InternalLink location={"/post-list/" + tag} title={tag}/></div>);
 			});
 		}
 		if (tagLinks.length === 0) {
@@ -21,6 +22,7 @@ export default createReactClass({
 
 		return (
 			<div>
+				<TopBar />
 				<ReactMarkdown source={this.props.bodyText} />
 				<div>Tags:</div>
 				<div>{tagLinks}</div>

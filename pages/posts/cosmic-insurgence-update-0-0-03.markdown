@@ -16,9 +16,7 @@ Backend updates:
 EVML/Interpreter updates:  
 - Added resource based threshold unlocks for events  
 
-As you can see, most of the changes are hard to show off in an interesting way, since they're all fields that are there so that they can be used in the future. However, they did pave the way for me to put together the threshold unlocks for events. This means that you can specify prerequisites that need to be fulfilled for the event to show up. Here is the updated syntax for EVML:
-
-[EVML Documentation](https://docs.google.com/document/d/1t5JyF784eOo306nBhfgyesnclszBi4_v6MfXisRnw4k/edit?usp=sharing)
+As you can see, most of the changes are hard to show off in an interesting way, since they're all fields that are there so that they can be used in the future. However, they did pave the way for me to put together the threshold unlocks for events. This means that you can specify prerequisites that need to be fulfilled for the event to show up.
 
 And an example:
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import PostLink from './PostLink';
+import InternalLink from './InternalLink';
+import TopBar from './TopBar';
 
 const createReactClass = require('create-react-class');
 
@@ -22,15 +23,20 @@ export const PostList = createReactClass({
 				if (
 					postTags
 					&& postTags.indexOf(tag) > -1) {
-					postLinks.push(<li key={listKey}><PostLink listKey={listKey} title={title} /></li>);
+					postLinks.push(<li key={listKey}><InternalLink location={'/post/' + listKey} title={title} /></li>);
 				}
 			}
 			else {
-				postLinks.push(<li key={listKey}><PostLink listKey={listKey} title={title} /></li>);
+				postLinks.push(<li key={listKey}><InternalLink location={'/post/' + listKey} title={title} /></li>);
 			}
 		});
 
-		return <ul>{postLinks}</ul>;
+		return (
+			<div>
+				<TopBar />
+				<ul className="post-list">{postLinks}</ul>
+			</div>
+		);
 	}
 });
 

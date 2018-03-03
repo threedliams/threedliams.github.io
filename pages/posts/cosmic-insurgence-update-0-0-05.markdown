@@ -26,9 +26,7 @@ Misc Backend:
 
 This update ended up being a mix of front and back end changes, as well as the final touches on my current vision of the interpreter/EVML language.
 
-Starting with the Interpreter/EVML changes, I reworked the way options are set up to make them more robust. Here is the updated documentation:
-
-[EVML Documentation](https://docs.google.com/document/d/1t5JyF784eOo306nBhfgyesnclszBi4_v6MfXisRnw4k/edit?usp=sharing)
+Starting with the Interpreter/EVML changes, I reworked the way options are set up to make them more robust.
 
 Each option now has a list of triggers, which are picked at random when the option is chosen. This should give the game more longevity since you won't be able to predict exactly the outcome of every event you've seen before. Each trigger can also now support multiple results. This means that, while before you could only add a value to one resource, now you can add any number of values to any number of resources with one single trigger.
 

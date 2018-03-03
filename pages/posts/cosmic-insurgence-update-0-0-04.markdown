@@ -23,9 +23,7 @@ As of the last update, the button was designed to only fire one function, the ge
 Before this update, the game processing was all happening in the graphics loop, so I extracted the game pieces out of graphics and placed them in main/GameState. This allows me to be more free and safe with what I'm rendering, since the game loop just calls a function to render a page instead of having everything wrapped up and blended together.
 
 
-Now let's move on to the real meat of this update, the interpreter and backend changes. Here is the updated syntax for EVML:
-
-[EVML Documentation](https://docs.google.com/document/d/1t5JyF784eOo306nBhfgyesnclszBi4_v6MfXisRnw4k/edit?usp=sharing)
+Now let's move on to the real meat of this update, the interpreter and backend changes.
 
 Like I said before, I wanted to add support for comparison operators besides '=' for checking event prerequisites. Well, that's been implemented, and I created a bunch of events to test out the changes. All together it's too much text to put the events here, but I'll at least provide a picture of the console output showing what's going on:
 

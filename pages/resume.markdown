@@ -1,0 +1,1 @@
+[Resume PDF](https://threedliams.github.io/assets/Ramsey_Opp_Resume.pdf)
