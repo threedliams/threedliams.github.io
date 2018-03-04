@@ -27,7 +27,7 @@ Now let's move on to the real meat of this update, the interpreter and backend c
 
 Like I said before, I wanted to add support for comparison operators besides '=' for checking event prerequisites. Well, that's been implemented, and I created a bunch of events to test out the changes. All together it's too much text to put the events here, but I'll at least provide a picture of the console output showing what's going on:
 
-![console output](http://threedliams.github.io/assets/update0-0-04/operatorSupport.jpg)
+![console output](http://threedliams.github.io/pages/assets/update0-0-04/operatorSupport.jpg)
 
 All the events were based on 40, so you can see that once the quark count hits and passes 40, the available events changes as appropriate. The abbreviations are GT = Greater Than, LT = Less Than, EQ = Equals, etc.
 

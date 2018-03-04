@@ -11,6 +11,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import About from './components/About';
 import ProjectMount from './components/ProjectMount';
+import HomePage from './components/HomePage';
 
 import txt from '../pages/about.markdown';
 import TopBar from './components/TopBar';
@@ -24,7 +25,7 @@ store.dispatch({
 
 
 const routes = <Route component={App}>
-	<Route path="/" component={TopBar} />
+	<Route path="/" component={HomePage} />
 	<Route path="/post-list(/:tag)" component={PostListContainer} />
 	<Route path="/post/:key" component={PostMountContainer} />
 	<Route path="/about" component={About} />
