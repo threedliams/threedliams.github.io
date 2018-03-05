@@ -22,6 +22,12 @@ export default createReactClass({
 						/> - <a href="https://github.com/EricFalkenberg/particle_filter_localization">repo</a>
 					</li>
 
+					<li>HughBorg - <InternalLink
+						title="about"
+						location='/projects/hughbork'
+						/> - <a href="https://github.com/threedliams/HughBorg">repo</a>
+					</li>
+
 					<li>
 						This website - <InternalLink
 							title="about"
@@ -44,7 +50,7 @@ export default createReactClass({
 					<li>Old Roguelike - <InternalLink
 							title="about"
 							location='/projects/oldRoguelike'
-						/> - <a href="https://github.com/threedliams/MutationRoguelike/settings">repo</a>
+						/> - <a href="https://github.com/threedliams/MutationRoguelike">repo</a>
 					</li>
 				</ul>
 			</div>
