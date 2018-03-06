@@ -1,5 +1,4 @@
 # About Ramsey
-## Interests
 #### Professional
 I originally got into computer science as a kid because I really wanted to make video games (typical) but once I tried it out I realized that I really love programming. The area that I'm most interested in is Artificial Intelligence of all kind, but I'm especially interested in game AI. I think it kind of sucks that difficulty levels are based around how much you let the AI cheat instead of actual levels of intelligence and I'd love to help change that.
 
