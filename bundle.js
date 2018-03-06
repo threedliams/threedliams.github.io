@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d0944aa503e254d30ac8"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b4285c68e38edf4a3472"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -7430,7 +7430,7 @@ function updateLink (link, options, obj) {
 /* 89 */
 /***/ (function(module, exports) {
 
-module.exports = "# About Ramsey\r\n## Interests\r\n#### Professional\r\nI originally got into computer science as a kid because I really wanted to make video games (typical) but once I tried it out I realized that I really love programming. The area that I'm most interested in is Artificial Intelligence of all kind, but I'm especially interested in game AI. I think it kind of sucks that difficulty levels are based around how much you let the AI cheat instead of actual levels of intelligence and I'd love to help change that.\r\n\r\nIn school I learned a lot of application programming, but after graduating I've exclusively worked on webdev. At first I didn't really enjoy it, but once I got the paradigm shift it actually ended up being pretty fun. I've still got a few knowledge gaps around styling but for the most part I get what's going on. If I'm being honest I still enjoy the process around creating stand-along apps more, but that might be because I still feel more comfortable in that space.\r\n\r\n#### Personal\r\n##### Passion Projects\r\nAt the moment my favorite pet project would have to be narcov, a chatbot I wrote for the discord channel my friends and I use (You can read more about it [here](https://threedliams.github.io/#/projects/narcov) or view the repo [here](https://github.com/threedliams/CallbackBot)). It's been a blast to build and provides basically endless entertainment as markov-generated messages are almost always hilarious.\r\n\r\nI love making little games and apps, you can read more about the rest of my projects [here](https://threedliams.github.io/#/projects).\r\n\r\n##### Non-Programming Things\r\nOther than programming I still try to find enough time to play video games, as it helps me keep in touch with my friends from back home. CSGO is my favorite multiplayer game although the rest of them get bored of it pretty easily so we usually play whatever other shooter is hot at the moment. For solo games I prefer anything strategy or short indie experiences so I don't suck up all my free time.\r\n\r\nI love music and I've played piano for 16 years. I basically exclusively play ragtime because it's so much fun and I really like the sound. My favorite kinds of music are funk, disco, and old-school hip hop, so since I moved to my own place a few years ago I've bought a bass and a set of turntables. I'm not anywhere close to as good with those as I am with the piano though, so ask me about them again when I'm 40.\r\n\r\nAlso I have the cutest cat in the universe! Her name is Simi."
+module.exports = "# About Ramsey\r\n#### Professional\r\nI originally got into computer science as a kid because I wanted to make video games (typical) but once I tried it out I realized that I actually just love programming. I'm most interested in Artificial Intelligence of any kind, especially game AI. It's disappointing that difficulty levels are based around how much the AI cheats instead of actual levels of intelligence, so I'd love to help change that.\r\n\r\nIn school I learned a lot of application programming, but post-graduation I've worked exclusively on webdev. I didn't really enjoy it at first, but once I understood the paradigm shift, it actually ended up being pretty fun. I've still got a few knowledge gaps around styling (as you can see from this website) but for the most part I get what's going on. If I'm being honest I still prefer the process around creating stand-alone apps, but that might be because I feel more comfortable in that space.\r\n\r\n#### Personal\r\n##### Passion Projects\r\nAt the moment my favorite pet project would have to be narcov, a chatbot I wrote for the discord channel my friends and I use (you can read more about it [here](https://threedliams.github.io/#/projects/narcov) or view the repo [here](https://github.com/threedliams/CallbackBot)). It's been a blast to build and provides virtually endless entertainment as markov-generated messages are always hilarious.\r\n\r\nI love making little games and apps. You can read more about the rest of my projects [here](https://threedliams.github.io/#/projects).\r\n\r\n##### Non-Programming Things\r\nOther than programming I try to find enough time to play video games, as it helps me stay in touch with my friends from back home. CS:GO is my favorite multiplayer game, but my friends get bored of it pretty easily so we usually play whatever other shooter is currently popular. For solo games I prefer anything strategy-based or short indie experiences that won't suck up all my free time.\r\n\r\nI love music -- I've played piano for 16 years. I almost exclusively play ragtime because it's so much fun and I really like the sound. My favorite kinds of music to listen to, however, are funk, disco, and old-school hip-hop. Since moving into my own place a few years ago, I've bought a bass and a set of turntables. Unfortunatley, I'm not anywhere close to as good with those as I am with the piano, so ask me about them again when I'm 40.\r\n\r\nAlso I have the cutest cat in the universe. Her name is Simi."
 
 /***/ }),
 /* 90 */
@@ -16409,7 +16409,7 @@ var _ProjectMount = __webpack_require__(276);
 
 var _ProjectMount2 = _interopRequireDefault(_ProjectMount);
 
-var _HomePage = __webpack_require__(284);
+var _HomePage = __webpack_require__(285);
 
 var _HomePage2 = _interopRequireDefault(_HomePage);
 
@@ -16427,7 +16427,7 @@ var store = (0, _redux.createStore)(_reducer2.default);
 
 store.dispatch({
 	type: 'SET_POST_MAP',
-	postMap: __webpack_require__(285)
+	postMap: __webpack_require__(286)
 });
 
 var routes = _react2.default.createElement(
@@ -51317,6 +51317,21 @@ exports.default = createReactClass({
 				_react2.default.createElement(
 					'li',
 					null,
+					'HughBorg - ',
+					_react2.default.createElement(_InternalLink2.default, {
+						title: 'about',
+						location: '/projects/hughbork'
+					}),
+					' - ',
+					_react2.default.createElement(
+						'a',
+						{ href: 'https://github.com/threedliams/HughBorg' },
+						'repo'
+					)
+				),
+				_react2.default.createElement(
+					'li',
+					null,
 					'This website - ',
 					_react2.default.createElement(_InternalLink2.default, {
 						title: 'about',
@@ -51370,7 +51385,7 @@ exports.default = createReactClass({
 					' - ',
 					_react2.default.createElement(
 						'a',
-						{ href: 'https://github.com/threedliams/MutationRoguelike/settings' },
+						{ href: 'https://github.com/threedliams/MutationRoguelike' },
 						'repo'
 					)
 				)
@@ -51520,11 +51535,12 @@ exports.default = createReactClass({
 
 var map = {
 	"./crappyGames.markdown": 278,
-	"./localization.markdown": 279,
-	"./monkeyProto.markdown": 280,
-	"./narcov.markdown": 281,
-	"./oldRoguelike.markdown": 282,
-	"./website.markdown": 283
+	"./hughborg.markdown": 279,
+	"./localization.markdown": 280,
+	"./monkeyProto.markdown": 281,
+	"./narcov.markdown": 282,
+	"./oldRoguelike.markdown": 283,
+	"./website.markdown": 284
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -51552,34 +51568,40 @@ module.exports = "This small, goofy project came out of a promise I jokingly mad
 /* 279 */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "HughBorg was a fun project I actually did twice - once in high school with some friends and then a second time (better) in college by myself. They both used [ZotBot](https://crawl.develz.org/tavern/viewtopic.php?f=22&t=2333) as a base with a couple improvements.\r\n\r\n### Both\r\nIn both of them I added a little script that helps you escape enemies you can't see. As a human it's really easy to tell that an enemy turned invisible and attack the same location, but for the bot once it disappears it might as well cease to exist. The function is super simple and has you run away if you take damage but can't tell where it was from.\r\n\r\n### Old HughBorg\r\nThis had a lot of interesting ideas but in the end was a bit of a mess. The concept behind it was that the bot would work according to \"commandments\" which it would learn over time by playing more. These were things like \"Thou should drink [potion]\" or \"Thou shalt not attack 24 1 lvl 3\". Don't ask me what the second one means because I don't actually remember. I think the first number might have been the enemy type from the giant array at the top, the second was the number of enemies and the third was your current level. Maybe?\r\n\r\nThe commandments had different confidence levels (Thou should, Though shalt, Though should not, Though shalt not) and were supposed to strengthen or weaken over time based on data from playthroughs. They were done using string parsing which in retrospect was much harder than just nested objects or something more practical. And because they were written right into the code, they didn't update automatically. The bot said its new commandments with its dying breath and we dug up the logs to copy paste them after each death.\r\n\r\nWe also tried to do a couple other tricks, like different priority levels for enemies so it would know the order to attack in, deciding when to chop an enemy to eat, deciding when to pick up equipment, things like that. None of the ideas made it all the way to fruition really. It was tough working with the limited API and we were pretty inexperienced.\r\n\r\n### New HughBorg\r\nThis was a way more streamlined version that ended up also being much more effective. Instead of commandments and decisions of all types, it just used a simple minimax function based on average health and damage of you and your enemies to decide whether to stay and fight or run away. And it actually saw a bunch of improvement both over ZotBot and HughBorg1. It's less exciting so there isn't as much to talk about, but it worked pretty okay!"
 
 /***/ }),
 /* 280 */
 /***/ (function(module, exports) {
 
-module.exports = "This project was the accidental result of a game-dev team I put together. We were experimenting with different movement systems which was interesting but didn't end up being very entertaining. So when my girlfriend at the time came to me with an idea for a game where monkeys throw poo at each other, I was all over it.\r\n\r\nWe eventually all got too busy with our actual jobs and other commitments to continue, so we split up and all I have to show for it is this little monkey game. I think it's oddly entertaining though so I'm not that upset."
+module.exports = ""
 
 /***/ }),
 /* 281 */
 /***/ (function(module, exports) {
 
-module.exports = "CallbackBot (or my personal branch, narcov) is a chat bot written to work with discord servers. It started out as a quick and dirty, poorly written joke app, but I quickly got annoyed at how long it took to add whatever new functionality my friends kept bothering me about. Instead, I refactored it to make it much more extensible and data driven so that `Eric can get off his butt and write his own callbacks instead of asking me all the time`.\r\n\r\nThe callbacks are all written in JSON using what I thought would be a more intuitive format for non-developers. Although looking back, it might actually be _more_ confusing than a giant if tree, even though it's more extensible. You can define exact or fuzzy matching for your callback, and when the bot notices a match in an incoming message, it will immediately do whatever combination of sent messages, pictures, or emoji reactions you tell it.\r\n\r\nBesides the callbacks you can also generate markov chains based off of individual or combined chat history. So to generate a markov chain from just my history I would use `!markov me`, but if I wanted to generate a combination of my history and my friend Eric's history I would do `!markov me + [Eric's username]`. You can also `!markov everyone` and `!markov random`.  \r\nIn addition to markov, the other genericly available functions are `!magic [question]` which generates a magic 8 ball response, and `!roll [x]d[y]` to roll x number of y sided dice and add the results.\r\n\r\nMy personal branch (narcov) contains all of my friend group's callbacks (mostly references to the Eric Andre show) as well as one extra piece of functionality. If you have the text \"bird up\" anywhere in your message, it generates a markov response from the transcribed text of a few Eric Andre show episodes."
+module.exports = "(Sorry in advance, the repo for this one is still a little messy and I haven't gone back to clean it up yet)\r\n\r\nThis project was the accidental result of a game-dev team I put together. We were experimenting with different movement systems which was interesting but didn't end up being very entertaining. So when my girlfriend at the time came to me with an idea for a game where monkeys throw poo at each other, I was all over it.\r\n\r\nWe eventually all got too busy with our actual jobs and other commitments to continue, so we split up and all I have to show for it is this little monkey game. I think it's oddly entertaining though so I'm not that upset."
 
 /***/ }),
 /* 282 */
 /***/ (function(module, exports) {
 
-module.exports = "This game was supposed to be a mutation-based roguelike, but after we finished the basics of the engine, my friend turned it in for a grade and abandoned the project. He got an A so I guess that's cool.\r\n\r\nYou can read more about it [here](https://threedliams.github.io/#/post/old-roguelike-project)"
+module.exports = "CallbackBot (or my personal branch, narcov) is a chat bot written to work with discord servers. It started out as a quick and dirty, poorly written joke app, but I quickly got annoyed at how long it took to add whatever new functionality my friends kept bothering me about. Instead, I refactored it to make it much more extensible and data driven so that `Eric can get off his butt and write his own callbacks instead of asking me all the time`.\r\n\r\nThe callbacks are all written in JSON using what I thought would be a more intuitive format for non-developers. Although looking back, it might actually be _more_ confusing than a giant if tree, even though it's more extensible. You can define exact or fuzzy matching for your callback, and when the bot notices a match in an incoming message, it will immediately do whatever combination of sent messages, pictures, or emoji reactions you tell it.\r\n\r\nBesides the callbacks you can also generate markov chains based off of individual or combined chat history. So to generate a markov chain from just my history I would use `!markov me`, but if I wanted to generate a combination of my history and my friend Eric's history I would do `!markov me + [Eric's username]`. You can also `!markov everyone` and `!markov random`.  \r\nIn addition to markov, the other genericly available functions are `!magic [question]` which generates a magic 8 ball response, and `!roll [x]d[y]` to roll x number of y sided dice and add the results.\r\n\r\nMy personal branch (narcov) contains all of my friend group's callbacks (mostly references to the Eric Andre show) as well as one extra piece of functionality. If you have the text \"bird up\" anywhere in your message, it generates a markov response from the transcribed text of a few Eric Andre show episodes."
 
 /***/ }),
 /* 283 */
 /***/ (function(module, exports) {
 
-module.exports = "Originally put together using the Jekyll blog framework, then re-built from scratch using React/Redux. The usecase for Redux is slightly contrived, but I included it as a learning experience and an easy way to manage global state (in this case the devlog posts).\r\n\r\nOverall I found React/Redux much easier to learn and more enjoyable to write and test than frameworks I've used in the past (Backbone with Mustache). As someone who was trained on more traditional application and systems programming, it was surprisingly intuitive and I didn't have any issues with the paradigm-shift like I've struggled with a bit during past web-dev experiences.\r\n\r\nYou can read a bit more about why I rebuilt it [here](https://threedliams.github.io/#/post/why-rebuild)"
+module.exports = "This game was supposed to be a mutation-based roguelike, but after we finished the basics of the engine, my friend turned it in for a grade and abandoned the project. He got an A so I guess that's cool.\r\n\r\nYou can read more about it [here](https://threedliams.github.io/#/post/old-roguelike-project)"
 
 /***/ }),
 /* 284 */
+/***/ (function(module, exports) {
+
+module.exports = "Originally put together using the Jekyll blog framework, then re-built from scratch using React/Redux. The usecase for Redux is slightly contrived, but I included it as a learning experience and an easy way to manage global state (in this case the devlog posts).\r\n\r\nOverall I found React/Redux much easier to learn and more enjoyable to write and test than frameworks I've used in the past (Backbone with Mustache). As someone who was trained on more traditional application and systems programming, it was surprisingly intuitive and I didn't have any issues with the paradigm-shift like I've struggled with a bit during past web-dev experiences.\r\n\r\nYou can read a bit more about why I rebuilt it [here](https://threedliams.github.io/#/post/why-rebuild)"
+
+/***/ }),
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51617,7 +51639,7 @@ exports.default = createReactClass({
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports) {
 
 module.exports = {"why-rebuild":{"title":"Why Rebuild?","filename":"why-rebuild","tags":["development","web-dev"]},"old-roguelike-project":{"title":"Old Roguelike Project","filename":"old-roguelike-project","tags":["development","game-dev"]},"broken-bootloader":{"title":"Broken Bootloader","filename":"broken-bootloader","tags":["development","os-dev"]},"cosmic-insurgence-new-project":{"title":"Cosmic Insurgence (New Project)","filename":"cosmic-insurgence-new-project","tags":["development","game-dev"]},"cosmic-insurgence-update-0-0-02":{"title":"Cosmic Insurgence Update 0.0.02","filename":"cosmic-insurgence-update-0-0-02","tags":["development","game-dev"]},"cosmic-insurgence-update-0-0-03":{"title":"Cosmic Insurgence Update 0.0.03","filename":"cosmic-insurgence-update-0-0-03","tags":["development","game-dev"]},"cosmic-insurgence-update-0-0-04":{"title":"Cosmic Insurgence Update 0.0.04","filename":"cosmic-insurgence-update-0-0-04","tags":["development","game-dev"]},"cosmic-insurgence-update-0-0-05":{"title":"Cosmic Insurgence Update 0.0.05","filename":"cosmic-insurgence-update-0-0-05","tags":["development","game-dev"]}}
