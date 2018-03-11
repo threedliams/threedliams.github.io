@@ -9,7 +9,7 @@ export default createReactClass({
 		return (
 			<div>
 				<TopBar />
-				<ul>
+				<ul className="project-list">
 					<li>CallbackBot (narcov) - <InternalLink
 							title="about"
 							location='/projects/narcov'
