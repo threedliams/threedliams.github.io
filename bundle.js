@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "0e0e1304a4618d1d225a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "68c0d65d81ed82d7e921"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -51384,7 +51384,8 @@ exports.default = createReactClass({
 						'a',
 						{ href: 'https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html' },
 						'play!'
-					)
+					),
+					' (only works with 2 controllers)'
 				),
 				_react2.default.createElement(
 					'li',

@@ -52,7 +52,7 @@ export default createReactClass({
 							location='/projects/monkeyProto'
 						/>
 						&nbsp;- <a href="https://github.com/threedliams/MonkeyProto">repo</a>
-						&nbsp;- <a href="https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html">play!</a>
+						&nbsp;- <a href="https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html">play!</a> (only works with 2 controllers)
 					</li>
 
 					<li>Old Roguelike - <InternalLink
