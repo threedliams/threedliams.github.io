@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a479c6ee7e3e820dc55e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b00cd1f66a3bb33f684b"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -51297,6 +51297,12 @@ exports.default = createReactClass({
 						'a',
 						{ href: 'https://github.com/threedliams/CallbackBot' },
 						'repo'
+					),
+					' ',
+					_react2.default.createElement(
+						'a',
+						{ href: 'https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html' },
+						'test'
 					)
 				),
 				_react2.default.createElement(
