@@ -13,7 +13,7 @@ export default createReactClass({
 					<li>CallbackBot (narcov) - <InternalLink
 							title="about"
 							location='/projects/narcov'
-						/> - <a href="https://github.com/threedliams/CallbackBot">repo</a>
+						/> - <a href="https://github.com/threedliams/CallbackBot">repo</a> <a href="https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html">test</a>
 					</li>
 
 					<li>Particle Filter Localization - <InternalLink
