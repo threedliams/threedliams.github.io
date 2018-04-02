@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b00cd1f66a3bb33f684b"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0e0e1304a4618d1d225a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -51292,17 +51292,11 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/narcov'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/CallbackBot' },
 						'repo'
-					),
-					' ',
-					_react2.default.createElement(
-						'a',
-						{ href: 'https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html' },
-						'test'
 					)
 				),
 				_react2.default.createElement(
@@ -51313,7 +51307,7 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/localization'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/EricFalkenberg/particle_filter_localization' },
@@ -51328,7 +51322,7 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/hughbork'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/HughBorg' },
@@ -51343,7 +51337,7 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/website'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/threedliams.github.io' },
@@ -51358,11 +51352,17 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/crappyGames'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/CrappyGames' },
 						'repo'
+					),
+					'\xA0- ',
+					_react2.default.createElement(
+						'a',
+						{ href: 'https://threedliams.github.io/pages/assets/games/CrappyGames/bin/index.html' },
+						'play!'
 					)
 				),
 				_react2.default.createElement(
@@ -51373,11 +51373,17 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/monkeyProto'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/MonkeyProto' },
 						'repo'
+					),
+					'\xA0- ',
+					_react2.default.createElement(
+						'a',
+						{ href: 'https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html' },
+						'play!'
 					)
 				),
 				_react2.default.createElement(
@@ -51388,7 +51394,7 @@ exports.default = createReactClass({
 						title: 'about',
 						location: '/projects/oldRoguelike'
 					}),
-					' - ',
+					'\xA0- ',
 					_react2.default.createElement(
 						'a',
 						{ href: 'https://github.com/threedliams/MutationRoguelike' },
