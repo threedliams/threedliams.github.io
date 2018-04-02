@@ -61,7 +61,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "68c0d65d81ed82d7e921"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "023fbfcd28903657624d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -51593,7 +51593,7 @@ module.exports = ""
 /* 281 */
 /***/ (function(module, exports) {
 
-module.exports = "(Sorry in advance, the repo for this one is still a little messy and I haven't gone back to clean it up yet)\r\n\r\nThis project was the accidental result of a game-dev team I put together. We were experimenting with different movement systems which was interesting but didn't end up being very entertaining. So when my girlfriend at the time came to me with an idea for a game where monkeys throw poo at each other, I was all over it.\r\n\r\nWe eventually all got too busy with our actual jobs and other commitments to continue, so we split up and all I have to show for it is this little monkey game. I think it's oddly entertaining though so I'm not that upset."
+module.exports = "(Sorry in advance, the repo for this one is still a little messy and I haven't gone back to clean it up yet. Also **only works with 2 controllers**)\r\n\r\nThis project was the accidental result of a game-dev team I put together. We were experimenting with different movement systems which was interesting but didn't end up being very entertaining. So when my girlfriend at the time came to me with an idea for a game where monkeys throw poo at each other, I was all over it.\r\n\r\nWe eventually all got too busy with our actual jobs and other commitments to continue, so we split up and all I have to show for it is this little monkey game. I think it's oddly entertaining though so I'm not that upset."
 
 /***/ }),
 /* 282 */
