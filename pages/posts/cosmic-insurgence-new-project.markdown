@@ -1,3 +1,4 @@
+# Cosumic Insurgence (New Project)
 This post is going to be all about the new project that has taken the place of the old roguelike as my main focus. This project is heavily inspired by the game King of Dragon Pass, so if you're familiar with that you'll understand the basic direction that we're taking the project in.
 
 Now to delve in to the current state of the engine. So far it's not much to look at, but the basic structure for the event system is set up. In order to facilitate the construction of events (because ideally there should be a ton of them), I wrote a simple markup language I call EVML, short for EVent Markup Language.

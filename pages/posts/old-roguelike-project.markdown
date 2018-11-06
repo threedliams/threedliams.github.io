@@ -1,3 +1,4 @@
+# Old Roguelike Project
 A while back I worked on a roguelike project with a friend, which unfortunately has been put on hold for the time being, but I figured I'd show off some of the cool things we got done before we moved on.
 
 Our main focus was on the idea of "mutations" as a primary game mechanic. We always found mutations in other roguelikes to be the most interesting and fun parts, so we figured, why not try to make a full game based on a more fleshed out mutation mechanic? Unfortunately because of how busy we got with school and work, we never really got far enough to put the mutations in place.
@@ -6,7 +7,7 @@ However, we did manage to code a good amount of a basic roguelike engine using t
 
 Pathing:
 
-![pathing example](http://threedliams.github.io/assets/oldProject/pathing1.gif)
+![pathing example](http://threedliams.github.io/pages/assets/oldProject/pathing1.gif)
 
 This gif I created is a visual representation of the pathing algorithm calculating the shortest path between an off screen enemy and the player behind a wall.
 

@@ -1,3 +1,4 @@
+# Cosmic Insurgence Update 0.0.04
 Another backend update, this time focused on refactoring and interpreter improvements. As always, here is the changelog:
 
 Graphics changes:  
@@ -71,7 +72,7 @@ I've also added support for an option to use one event to unlock another event. 
 
 I tried to keep the syntax as similar to a normal, game state modifying option as possible. In this case the target, "unlockable" is the name of another event. Here is the option in action through console output. The first print out of the available events is before selecting option 2, and the second after:
 
-![unlockable console output](http://threedliams.github.io/assets/update0-0-04/unlockable.jpg)
+![unlockable console output](http://threedliams.github.io/pages/assets/update0-0-04/unlockable.jpg)
 
 
 That's about it for this update. I also finished up the scope definitions so that you can modify Planet and Character values with events, but since those aren't used anywhere there's not really anything to show. In the next update, I anticipate adding support for result pages of some kind. After that, the last features I can think of that the interpreter still needs are:

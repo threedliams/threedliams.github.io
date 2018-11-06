@@ -1,3 +1,4 @@
+# Cosmic Insurgence Update 0.0.02
 Although I never mentioned it, the version of the Cosmic Insurgence project was 0.0.01 as of the first post on it, making this the first real update.
 
 Here's a quick changelog before I dive in:

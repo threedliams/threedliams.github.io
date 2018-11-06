@@ -12,7 +12,8 @@
 		"filename": "old-roguelike-project",
 		"tags": [
 			"development",
-			"game-dev"
+			"game-dev",
+			"old-posts"
 		]
 	},
 	"broken-bootloader": {
@@ -20,39 +21,8 @@
 		"filename": "broken-bootloader",
 		"tags": [
 			"development",
-			"os-dev"
-		]
-	},
-	"cosmic-insurgence-new-project": {
-		"title": "Cosmic Insurgence (New Project)",
-		"filename": "cosmic-insurgence-new-project",
-		"tags": [
-			"development",
-			"game-dev"
-		]
-	},
-	"cosmic-insurgence-update-0-0-02": {
-		"title": "Cosmic Insurgence Update 0.0.02",
-		"filename": "cosmic-insurgence-update-0-0-02",
-		"tags": [
-			"development",
-			"game-dev"
-		]
-	},
-	"cosmic-insurgence-update-0-0-03": {
-		"title": "Cosmic Insurgence Update 0.0.03",
-		"filename": "cosmic-insurgence-update-0-0-03",
-		"tags": [
-			"development",
-			"game-dev"
-		]
-	},
-	"cosmic-insurgence-update-0-0-04": {
-		"title": "Cosmic Insurgence Update 0.0.04",
-		"filename": "cosmic-insurgence-update-0-0-04",
-		"tags": [
-			"development",
-			"game-dev"
+			"os-dev",
+			"old-posts"
 		]
 	},
 	"cosmic-insurgence-update-0-0-05": {
@@ -60,7 +30,44 @@
 		"filename": "cosmic-insurgence-update-0-0-05",
 		"tags": [
 			"development",
-			"game-dev"
+			"game-dev",
+			"old-posts"
+		]
+	},
+	"cosmic-insurgence-update-0-0-04": {
+		"title": "Cosmic Insurgence Update 0.0.04",
+		"filename": "cosmic-insurgence-update-0-0-04",
+		"tags": [
+			"development",
+			"game-dev",
+			"old-posts"
+		]
+	},
+	"cosmic-insurgence-update-0-0-03": {
+		"title": "Cosmic Insurgence Update 0.0.03",
+		"filename": "cosmic-insurgence-update-0-0-03",
+		"tags": [
+			"development",
+			"game-dev",
+			"old-posts"
+		]
+	},
+	"cosmic-insurgence-update-0-0-02": {
+		"title": "Cosmic Insurgence Update 0.0.02",
+		"filename": "cosmic-insurgence-update-0-0-02",
+		"tags": [
+			"development",
+			"game-dev",
+			"old-posts"
+		]
+	},
+	"cosmic-insurgence-new-project": {
+		"title": "Cosmic Insurgence (New Project)",
+		"filename": "cosmic-insurgence-new-project",
+		"tags": [
+			"development",
+			"game-dev",
+			"old-posts"
 		]
 	}
 }

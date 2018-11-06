@@ -1,3 +1,4 @@
+# Broken Bootloader
 Starting this OS project I'm coming at it with the idea that I want to do as much from scratch as possible. Because of that I opted to write my own bootloader, which has been met with mixed results. As you can see I did get it to display some messages on the screen:
 
 ![welcome screen](http://threedliams.github.io/pages/assets/brokenBootloader/welcomeScreen.jpg)
