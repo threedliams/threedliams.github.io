@@ -26,7 +26,7 @@ export default createReactClass({
 
 					<li>HughBorg - <InternalLink
 						title="about"
-						location='/projects/hughbork'
+						location='/projects/hughborg'
 						/>
 						&nbsp;- <a href="https://github.com/threedliams/HughBorg">repo</a>
 					</li>

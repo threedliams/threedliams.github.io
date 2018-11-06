@@ -7,10 +7,23 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 105%;
+    line-height: 1.5em;
+}
+
+.about div,
+.post div {
+    max-width: 50em;
+    margin: auto;
+}
+
 .home-links {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    text-align: center;
 }
 
 .home-page{
@@ -19,8 +32,6 @@ a {
 }
 
 .home-page .home-links li {
-    display: inline-block;
-    text-align: center;
     list-style-type: none;
     font-size: 36pt;
     width: 100%;
@@ -29,16 +40,19 @@ a {
 }
 
 .home-page .home-links li a {
+    display: block;
+}
+
+.home-page .home-links li a {
     color: #212628;
     background-color: transparent;
 }
 
 .home-links li {
-    float: left;
+    display: inline;
 }
 
 .home-links li a {
-    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -69,9 +83,14 @@ p {
 .post-list li,
 .project-list li {
     margin: 15px;
+    text-align: center;
 }
 
-code{
+ul {
+    padding-top: 1px;
+}
+
+code {
     font-family: monospace, monospace;
     font-size: 1em;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;

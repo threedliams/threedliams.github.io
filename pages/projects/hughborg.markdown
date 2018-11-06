@@ -1,3 +1,4 @@
+# HughBorg
 HughBorg was a fun project I actually did twice - once in high school with some friends and then a second time (better) in college by myself. They both used [ZotBot](https://crawl.develz.org/tavern/viewtopic.php?f=22&t=2333) as a base with a couple improvements.
 
 ### Both

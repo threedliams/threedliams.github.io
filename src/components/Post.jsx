@@ -21,7 +21,7 @@ export default createReactClass({
 		}
 
 		return (
-			<div>
+			<div className="post">
 				<TopBar />
 				<ReactMarkdown source={this.props.bodyText} />
 				<div>Tags:</div>

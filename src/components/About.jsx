@@ -9,9 +9,9 @@ const createReactClass = require('create-react-class');
 export default createReactClass({
 	render: function() {
 		return (
-			<div>
+			<div className="about">
 				<TopBar/>
-				<ReactMarkdown source={aboutText} />
+				<ReactMarkdown source={aboutText}/>
 			</div>
 		);
 	}
