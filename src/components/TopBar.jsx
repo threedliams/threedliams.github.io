@@ -9,7 +9,7 @@ export default createReactClass({
 			<li><Link to="/post-list">Devlog</Link></li>
 			<li><Link to="/projects">Projects</Link></li>
 			<li><Link to="/about">About</Link></li>
-			<li><Link to="/resume">Resumé</Link></li>
+			<li><Link to="/resume">Résumé</Link></li>
 		</ul>;
 	}
 });
