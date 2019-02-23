@@ -5,6 +5,9 @@ import InternalLink from './InternalLink';
 const createReactClass = require('create-react-class');
 
 export default createReactClass({
+	componentDidMount: function() {
+		document.title = "Projects";
+	},
 	render: function() {
 		return (
 			<div>
