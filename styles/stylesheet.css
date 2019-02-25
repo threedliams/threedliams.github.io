@@ -16,6 +16,11 @@ p {
     line-height: 150%;
 }
 
+.about img {
+    width: 25%;
+    height: 25%;
+}
+
 .about div,
 .post div {
     max-width: 50em;

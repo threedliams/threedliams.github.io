@@ -15,5 +15,6 @@ Other than programming I try to find enough time to play video games, as it help
 
 I love music -- I've played piano for 16 years. I almost exclusively play ragtime because it's so much fun and I really like the sound. My favorite kinds of music to listen to, however, are funk, disco, and old-school hip-hop. Since moving into my own place a few years ago, I've bought a bass and a set of turntables. Unfortunately, I'm not anywhere close to as good with those as I am with the piano, so ask me about them again when I'm 40.
 
-Also I have the cutest cat in the universe. Her name is Simi.
 ![Simi!](http://threedliams.github.io/pages/assets/about/simi.jpg)
+
+Also I have the cutest cat in the universe. Her name is Simi.
