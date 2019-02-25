@@ -51,9 +51,6 @@ p {
 
 .home-page .home-links li a {
     display: block;
-}
-
-.home-page .home-links li a {
     color: #212628;
     background-color: transparent;
 }
