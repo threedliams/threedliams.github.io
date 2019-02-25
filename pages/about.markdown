@@ -1,4 +1,5 @@
 # About Ramsey
+![me_irl](http://threedliams.github.io/pages/assets/about/me.jpg)
 #### Professional
 I originally got into computer science as a kid because I wanted to make video games (typical) but once I tried it out I realized that I actually just love programming. I'm most interested in Artificial Intelligence of any kind, especially game AI. It's disappointing that difficulty levels are based around how much the AI cheats instead of actual levels of intelligence, so I'd love to help change that.
 
