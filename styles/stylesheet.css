@@ -18,9 +18,11 @@ p {
 
 .about img {
     width: 25%;
-    height: 25%;
+    min-width: 200px;
+    height: auto;
     float: right;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .about div,
