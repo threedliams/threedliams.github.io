@@ -7,13 +7,13 @@ Graphics changes:
 - Changed buttons to fire on mousedown => mouseup instead of just firing on mousedown. This allows users to change their mind mid click and drag the mouse away to cancel the click.  
 
 EVML/Interpreter changes:  
--added support for <, >, <=, >= operators and corrected = operator to work like == instead of >  
--added event to event interaction syntax  
--added escape character: '\\'  
+- added support for <, >, <=, >= operators and corrected = operator to work like == instead of >  
+- added event to event interaction syntax  
+- added escape character: '\\'  
 
 Backend changes:  
--added event to event interaction  
--finished up the definition for the scope functions so that character, planet, and universe (all planets) can be modified through events. The planet and character used are currently random.
+- added event to event interaction  
+- finished up the definition for the scope functions so that character, planet, and universe (all planets) can be modified through events. The planet and character used are currently random.
 
 To start off, I'll explain the graphics changes:
 

@@ -3,26 +3,26 @@ I was a bit more busy with school work than I had expected, so this update is a 
 
 As always, here is the changelog for this update:
 
-Interpreter/EVML:
--Unified <txt> and <desc> tags to just be <txt> because they overlapped completely in terms of function.
--Restructured options to support multiple triggers off of one option
--Restructured options to support multiple results off of one trigger
+Interpreter/EVML:  
+- Unified <txt> and <desc> tags to just be <txt> because they overlapped completely in terms of function.
+- Restructured options to support multiple triggers off of one option
+- Restructured options to support multiple results off of one trigger
 
-Graphics:
--Added result page. Displays text and image based on the trigger fired after an option is selected. Includes a confirmation button.
--Added a quit button to the home page.
+Graphics:  
+- Added result page. Displays text and image based on the trigger fired after an option is selected. Includes a confirmation button.
+- Added a quit button to the home page.
 
-Character (NPC):
--Added affinity for income calculation. This percent is multiplied with the income of the planet the character controls to get the final income value.
+Character (NPC):  
+- Added affinity for income calculation. This percent is multiplied with the income of the planet the character controls to get the final income value.
 
-Faction:
--Added faction class
--Factions are collections of characters. They will eventually be the teams you are fighting with for control of the galactic senate. Your cabinet will be made up of people from your faction. Your faction members will oversee the planets you have influence over.
--Added faction resource values
--Added faction income, calculated by adding the income of every member
+Faction:  
+- Added faction class
+- Factions are collections of characters. They will eventually be the teams you are fighting with for control of the galactic senate. Your cabinet will be made up of people from your faction. Your faction members will oversee the planets you have influence over.
+- Added faction resource values
+- Added faction income, calculated by adding the income of every member
 
-Misc Backend:
--Changed quark/might/intel to doubles so affinity calculations can be made
+Misc Backend:  
+- Changed quark/might/intel to doubles so affinity calculations can be made
 
 
 This update ended up being a mix of front and back end changes, as well as the final touches on my current vision of the interpreter/EVML language.
