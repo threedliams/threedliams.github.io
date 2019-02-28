@@ -23,11 +23,11 @@ export const PostList = createReactClass({
 				if (
 					postTags
 					&& postTags.indexOf(tag) > -1) {
-					postLinks.push(<li key={listKey}><InternalLink location={'/post/' + listKey} title={title} /></li>);
+					postLinks.push(<li key={listKey}><span className="invisible-text">as</span><InternalLink location={'/post/' + listKey} title={title} /><span className="invisible-text">df</span></li>);
 				}
 			}
 			else {
-				postLinks.push(<li key={listKey}><InternalLink location={'/post/' + listKey} title={title} /></li>);
+				postLinks.push(<li key={listKey}><span className="invisible-text">as</span><InternalLink location={'/post/' + listKey} title={title} /><span className="invisible-text">df</span></li>);
 			}
 		});
 

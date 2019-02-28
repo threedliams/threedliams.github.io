@@ -87,6 +87,10 @@ p {
     list-style-type: none;
 }
 
+.invisible-text {
+    visibility: hidden;
+}
+
 .post-list li,
 .project-list li {
     margin: 15px;
