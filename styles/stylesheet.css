@@ -57,6 +57,7 @@ p {
 
 .home-links li {
     display: inline;
+    font-size: 120%;
 }
 
 .home-links li a {
@@ -94,6 +95,10 @@ p {
 .post-list li,
 .project-list li {
     margin: 15px;
+    text-align: center;
+}
+
+.resume {
     text-align: center;
 }
 

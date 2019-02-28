@@ -11,7 +11,7 @@ export default createReactClass({
 	},
 	render: function() {
 		return (
-			<div>
+			<div className="resume">
 				<TopBar />
 				<ReactMarkdown source={resumeText} />
 			</div>
