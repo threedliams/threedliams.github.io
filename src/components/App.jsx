@@ -1,12 +1,10 @@
 import React from 'react';
 
-var createReactClass = require('create-react-class');
+import 'github-markdown-css/github-markdown.css';
+import '../../styles/stylesheet.css';
 
-require('github-markdown-css/github-markdown.css');
-require('../../styles/stylesheet.css');
-
-export default createReactClass({
-	render: function() {
+export default class App extends React.Component {
+	render() {
 		return this.props.children;
 	}
-});
+};

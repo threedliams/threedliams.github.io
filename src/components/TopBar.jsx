@@ -1,10 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router-dom';
 
-var createReactClass = require('create-react-class');
-
-export default createReactClass({
-	render: function() {
+export default class TopBar extends React.Component {
+	render() {
 		return <ul className="home-links">
 			<li><Link to="/post-list">Devlog</Link></li>
 			<li><Link to="/projects">Projects</Link></li>
@@ -12,4 +10,4 @@ export default createReactClass({
 			<li><Link to="/resume">Résumé</Link></li>
 		</ul>;
 	}
-});
+};

@@ -1,10 +1,8 @@
 import React from 'react';
-import {Link} from 'react-router';
+import { Link } from 'react-router-dom';
 
-const createReactClass = require('create-react-class');
-
-export default createReactClass({
-    render: function() {
+export default class InternalLink extends React.Component {
+    render() {
         return <Link to={this.props.location}>{this.props.title}</Link>
     }
-});
+};

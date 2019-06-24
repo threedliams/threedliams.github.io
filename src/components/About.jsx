@@ -3,15 +3,14 @@ import React from 'react';
 import aboutText from '../../pages/about.markdown';
 import TopBar from './TopBar';
 
-const ReactMarkdown = require('react-markdown');
-const createReactClass = require('create-react-class');
+import ReactMarkdown from 'react-markdown';
 
-export default createReactClass({
-	componentDidMount: function() {
+export default class About extends React.Component {
+	componentDidMount() {
 		document.title = "About";
-	},
+	}
 
-	render: function() {
+	render() {
 		return (
 			<div className="about">
 				<TopBar/>
@@ -19,4 +18,4 @@ export default createReactClass({
 			</div>
 		);
 	}
-});
+};

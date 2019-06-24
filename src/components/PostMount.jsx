@@ -1,14 +1,13 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import * as actionCreators from '../action_creators';
 import Post from './Post';
+import { withRouter } from 'react-router-dom';
 
-const createReactClass = require('create-react-class');
-
-export const PostMount = createReactClass({
+export const PostMount = class extends React.Component {
     // TODO: post not found
-    render: function() {
-        var key = this.props.routeParams.key;
+    render() {
+        var key = this.props.match.params.postKey;
         var post = this.props.postMap.get(key);
         return <Post 
             title={post.get('title')}
@@ -16,7 +15,7 @@ export const PostMount = createReactClass({
             bodyText={require('../../pages/posts/' + post.get('filename') + '.markdown')}
         />;
     }
-});
+};
 
 function mapStateToProps(state) {
     return {
@@ -24,7 +23,7 @@ function mapStateToProps(state) {
     };
 }
 
-export const PostMountContainer = connect(
+export const PostMountContainer = withRouter(connect(
     mapStateToProps,
     actionCreators
-)(PostMount);
+)(PostMount));

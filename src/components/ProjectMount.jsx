@@ -1,15 +1,12 @@
 import React from 'react';
 import Post from './Post';
 
-
-const createReactClass = require('create-react-class');
-
-export default createReactClass({
-    render: function() {
-        var key = this.props.routeParams.key;
+export default class ProjectMount extends React.Component {
+    render() {
+        var key = this.props.match.params.projectKey;
         return <Post
             title={key}
             bodyText={require('../../pages/projects/' + key + '.markdown')}
         />;
     }
-});
+};

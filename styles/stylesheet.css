@@ -16,6 +16,10 @@ p {
     line-height: 150%;
 }
 
+.home-links div{
+    margin: auto;
+}
+
 .about img {
     width: 25%;
     min-width: 200px;
@@ -29,6 +33,8 @@ p {
 .about div,
 .post div {
     max-width: 50em;
+    margin: 0, auto;
+    align-content: center;
     margin: auto;
 }
 
@@ -38,12 +44,12 @@ p {
 
 .home-page{
     text-decoration: none;
-    font-size: 20px;
+    font-size: 36pt;
+    padding: 10% 0;
 }
 
 .home-page .home-links li {
     list-style-type: none;
-    font-size: 36pt;
     width: 100%;
     height: 100%;
     float: none;
@@ -58,6 +64,11 @@ p {
 .home-links li {
     display: inline;
     font-size: 120%;
+}
+
+ul {
+    padding-inline-start: 0px;
+    padding: 8px;
 }
 
 .home-links li a {
@@ -94,8 +105,15 @@ p {
 
 .post-list li,
 .project-list li {
-    margin: 15px;
+    margin-top: 15px;
     text-align: center;
+}
+
+.post-list,
+.project-list,
+.about {
+    align-content: center;
+    width: 100%;
 }
 
 .resume {

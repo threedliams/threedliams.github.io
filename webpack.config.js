@@ -4,7 +4,8 @@ module.exports = {
 	entry: [
 		'webpack-dev-server/client?http://localhost:8080',
 		'webpack/hot/only-dev-server',
-		'./src/index.jsx'
+		'./src/index.jsx',
+		'./styles/stylesheet.css'
 	],
 	module: {
 		rules: [
@@ -39,8 +40,10 @@ module.exports = {
 	},
 	devServer: {
 		contentBase: './',
+		historyApiFallback: true,
 		hot: true
 	},
+	devtool: 'source-map',
 	plugins: [
 		new webpack.HotModuleReplacementPlugin()
 	]

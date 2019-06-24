@@ -2,13 +2,11 @@ import React from 'react';
 import TopBar from './TopBar';
 import InternalLink from './InternalLink';
 
-const createReactClass = require('create-react-class');
-
-export default createReactClass({
-	componentDidMount: function() {
+export default class Projects extends React.Component {
+	componentDidMount() {
 		document.title = "Projects";
-	},
-	render: function() {
+	}
+	render() {
 		return (
 			<div>
 				<TopBar />
@@ -68,4 +66,4 @@ export default createReactClass({
 			</div>
 		);
 	}
-});
+};

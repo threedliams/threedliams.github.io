@@ -2,14 +2,14 @@ import React from 'react';
 import TopBar from './TopBar';
 import resumeText from '../../pages/resume.markdown';
 
-const ReactMarkdown = require('react-markdown');
-const createReactClass = require('create-react-class');
+import ReactMarkdown from 'react-markdown';
 
-export default createReactClass({
-	componentDidMount: function() {
+export default class Resume extends React.Component {
+	componentDidMount() {
 		document.title = "Résumé";
-	},
-	render: function() {
+	}
+
+	render() {
 		return (
 			<div className="resume">
 				<TopBar />
@@ -17,4 +17,4 @@ export default createReactClass({
 			</div>
 		);
 	}
-});
+};

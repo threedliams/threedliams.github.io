@@ -1,17 +1,16 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import InternalLink from './InternalLink';
 import TopBar from './TopBar';
 
-const createReactClass = require('create-react-class');
-
-export const PostList = createReactClass({
-	componentDidMount: function() {
+export const PostList = class extends React.Component {
+	componentDidMount() {
 		document.title = "Post List";
-	},
-	render: function() {
+	}
+
+	render() {
 		var postLinks = [];
-		var tag = this.props.routeParams.tag;
+		var tag = this.props.match.params.tag;
 		var postMap = this.props.postMap.keySeq().toArray();
 
 		postMap.forEach(listKey => {
@@ -38,7 +37,7 @@ export const PostList = createReactClass({
 			</div>
 		);
 	}
-});
+};
 
 function mapStateToProps(state) {
 	return {

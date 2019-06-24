@@ -2,11 +2,10 @@ import React from 'react';
 import InternalLink from './InternalLink';
 import TopBar from './TopBar';
 
-const ReactMarkdown = require('react-markdown');
-const createReactClass = require('create-react-class');
+import ReactMarkdown from 'react-markdown';
 
-export default createReactClass({
-	render: function() {
+export default class Post extends React.Component {
+	render() {
 		document.title = this.props.title;
 
 		var tags = this.props.tags;
@@ -29,5 +28,5 @@ export default createReactClass({
 			</div>
 		);
 	}
-});
+};
 
