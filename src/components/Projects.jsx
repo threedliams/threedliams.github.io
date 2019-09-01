@@ -1,6 +1,7 @@
 import React from 'react';
 import TopBar from './TopBar';
 import InternalLink from './InternalLink';
+import ProjectListItem from './ProjectListItem';
 
 export default class Projects extends React.Component {
 	componentDidMount() {
@@ -11,57 +12,50 @@ export default class Projects extends React.Component {
 			<div>
 				<TopBar />
 				<ul className="project-list">
-					<li>CallbackBot (narcov) - <InternalLink
-							title="about"
-							location='/projects/narcov'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/CallbackBot">repo</a>
-					</li>
+					<ProjectListItem
+						name="CallbackBot (narcov)"
+						about="/projects/narcov"
+						repo="https://github.com/threedliams/CallbackBot"
+					/>
 
-					<li>Particle Filter Localization - <InternalLink
-							title="about"
-							location='/projects/localization'
-						/>
-						&nbsp;- <a href="https://github.com/EricFalkenberg/particle_filter_localization">repo</a>
-					</li>
+					<ProjectListItem
+						name="Particle Filter Localization"
+						about="/projects/localization"
+						repo="https://github.com/EricFalkenberg/particle_filter_localization"
+					/>
 
-					<li>HughBorg - <InternalLink
-						title="about"
-						location='/projects/hughborg'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/HughBorg">repo</a>
-					</li>
+					<ProjectListItem
+						name="HughBorg"
+						about="/projects/hughborg"
+						repo="https://github.com/threedliams/HughBorg"
+					/>
 
-					<li>
-						This website - <InternalLink
-							title="about"
-							location='/projects/website'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/threedliams.github.io">repo</a>
-					</li>
+					<ProjectListItem
+						name="This website"
+						about="/projects/website"
+						repo="https://github.com/threedliams/threedliams.github.io"
+					/>
 
-					<li>Crappy Games - <InternalLink
-							title="about"
-							location='/projects/crappyGames'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/CrappyGames">repo</a>
-						&nbsp;- <a href="https://threedliams.github.io/pages/assets/games/CrappyGames/bin/index.html">play!</a>
-					</li>
+					<ProjectListItem
+						name="Crappy Games"
+						about="/projects/crappyGames"
+						repo="https://github.com/threedliams/CrappyGames"
+						play="https://threedliams.github.io/pages/assets/games/CrappyGames/bin/index.html"
+					/>
 
-					<li>MonkeyProto - <InternalLink
-							title="about"
-							location='/projects/monkeyProto'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/MonkeyProto">repo</a>
-						&nbsp;- <a href="https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html">play!</a> (only works with 2 controllers)
-					</li>
+					<ProjectListItem
+						name="MonkeyProto"
+						about="/projects/monkeyProto"
+						repo="https://github.com/threedliams/MonkeyProto"
+						play="https://threedliams.github.io/pages/assets/games/MonkeyProto/bin/index.html"
+						playComment=" (only works with 2 controllers)"
+					/>
 
-					<li>Old Roguelike - <InternalLink
-							title="about"
-							location='/projects/oldRoguelike'
-						/>
-						&nbsp;- <a href="https://github.com/threedliams/MutationRoguelike">repo</a>
-					</li>
+					<ProjectListItem
+						name="Old Roguelike"
+						about="/projects/oldRoguelike"
+						repo="https://github.com/threedliams/MutationRoguelike"
+					/>
 				</ul>
 			</div>
 		);
