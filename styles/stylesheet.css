@@ -30,6 +30,13 @@ p {
     border-radius: 50%;
 }
 
+.project-thumbnail {
+    max-height: 100px;
+    max-width: 150px;
+    border-radius: 25%;
+    border: 1px solid black;
+}
+
 .about div,
 .post div {
     max-width: 50em;

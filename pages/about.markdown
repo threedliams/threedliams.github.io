@@ -1,6 +1,6 @@
 # About Ramsey
 #### Professional
-![me_irl](http://threedliams.github.io/pages/assets/about/me.jpg)
+![me_irl](http://threedliams.github.io/pages/assets/about/me.png)
 I originally got into computer science as a kid because I wanted to make video games (typical) but once I tried it out I realized that I actually just love programming. I'm most interested in Artificial Intelligence of any kind, especially game AI. It's disappointing that difficulty levels are based around how much the AI cheats instead of actual levels of intelligence, so I'd love to help change that.
 
 In school I learned a lot of application programming, but post-graduation I've worked exclusively on webdev. I didn't really enjoy it at first, but once I understood the paradigm shift, it actually ended up being pretty fun. I've still got a few knowledge gaps around styling (as you can see from this website) but for the most part I get what's going on. If I'm being honest I still prefer the process around creating stand-alone apps, but that might be because I feel more comfortable in that space.
