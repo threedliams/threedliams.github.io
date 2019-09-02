@@ -7,9 +7,9 @@ In school I learned a lot of application programming, but post-graduation I've w
 
 #### Personal
 ##### Passion Projects
-At the moment my favorite pet project would have to be narcov, a chatbot I wrote for the discord channel my friends and I use (you can read more about it [here](https://threedliams.github.io/#/projects/narcov) or view the repo [here](https://github.com/threedliams/CallbackBot)). It's been a blast to build and provides virtually endless entertainment as markov-generated messages are always hilarious.
+At the moment my favorite pet project would have to be narcov, a chatbot I wrote for the discord channel my friends and I use (you can read more about it [here](https://threedliams.github.io/projects/narcov) or view the repo [here](https://github.com/threedliams/CallbackBot)). It's been a blast to build and provides virtually endless entertainment as markov-generated messages are always hilarious.
 
-I love making little games and apps. You can read more about the rest of my projects [here](https://threedliams.github.io/#/projects).
+I love making little games and apps. You can read more about the rest of my projects [here](https://threedliams.github.io/projects).
 
 ##### Non-Programming Things
 ![Simi!](http://threedliams.github.io/pages/assets/about/simi.jpg)
