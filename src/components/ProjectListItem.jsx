@@ -23,14 +23,18 @@ export default class ProjectListItem extends React.Component {
         }
 
         return (
-            <li>{imageTag}<br />
-                {name} - <InternalLink
-                    title="about"
-                    location={about}
-                />
-                &nbsp;- <a href={repo}>repo</a>
-                {playLink}
-            </li>
+            <div className="card">
+                <li>{imageTag}<br />
+                        <div  className="container">
+                        {name} - <InternalLink
+                            title="about"
+                            location={about}
+                        />
+                        &nbsp;- <a href={repo}>repo</a>
+                        {playLink}
+                    </div>
+                </li>
+            </div>
         );
     }
 }
