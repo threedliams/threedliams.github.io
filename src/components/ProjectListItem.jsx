@@ -19,7 +19,7 @@ export default class ProjectListItem extends React.Component {
         
         let imageTag = <span />;
         if (image) {
-            imageTag = (<img src={image} className="project-thumbnail"/>);
+            imageTag = (<a href={about}><img src={image} className="project-thumbnail"/></a>);
         }
 
         return (
