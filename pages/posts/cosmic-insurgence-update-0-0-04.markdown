@@ -28,7 +28,7 @@ Now let's move on to the real meat of this update, the interpreter and backend c
 
 Like I said before, I wanted to add support for comparison operators besides '=' for checking event prerequisites. Well, that's been implemented, and I created a bunch of events to test out the changes. All together it's too much text to put the events here, but I'll at least provide a picture of the console output showing what's going on:
 
-![console output](http://threedliams.github.io/pages/assets/update0-0-04/operatorSupport.jpg)
+![console output](https://ramseyop.com/pages/assets/update0-0-04/operatorSupport.jpg)
 
 All the events were based on 40, so you can see that once the quark count hits and passes 40, the available events changes as appropriate. The abbreviations are GT = Greater Than, LT = Less Than, EQ = Equals, etc.
 
@@ -72,7 +72,7 @@ I've also added support for an option to use one event to unlock another event. 
 
 I tried to keep the syntax as similar to a normal, game state modifying option as possible. In this case the target, "unlockable" is the name of another event. Here is the option in action through console output. The first print out of the available events is before selecting option 2, and the second after:
 
-![unlockable console output](http://threedliams.github.io/pages/assets/update0-0-04/unlockable.jpg)
+![unlockable console output](https://ramseyop.com/pages/assets/update0-0-04/unlockable.jpg)
 
 
 That's about it for this update. I also finished up the scope definitions so that you can modify Planet and Character values with events, but since those aren't used anywhere there's not really anything to show. In the next update, I anticipate adding support for result pages of some kind. After that, the last features I can think of that the interpreter still needs are:
