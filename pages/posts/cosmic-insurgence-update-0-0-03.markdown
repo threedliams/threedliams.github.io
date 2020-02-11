@@ -51,7 +51,7 @@ Here's a modified version of our usual sample event that shows the prerequisite 
 
 Here's the console output this generates as we add quarks to our total from a separate event:
 
-![console output](https://ramseyop.com/pages/assets/update0-0-03/prereqDemonstration.jpg)
+![console output](https://ramseyopp.com/pages/assets/update0-0-03/prereqDemonstration.jpg)
 
 Moving on from here, these are the changes I plan to include in the next update:
 
