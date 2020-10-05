@@ -24,6 +24,14 @@ li {
     margin: auto;
 }
 
+.post img {
+    max-width: 50em;
+    min-width: 200px;
+    height: auto;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
 .about img {
     width: 25%;
     min-width: 200px;

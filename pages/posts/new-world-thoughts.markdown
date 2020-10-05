@@ -101,7 +101,8 @@ When characters don't feel like they have real motivations, they don't feel like
 ### Performance
 Load times are **brutal** and on top of that the game seems to be constantly streaming from the hard drive. Here I am sitting at the edge of town doing nothing and it's blasting my CPU, reading ~23MB/s from the hard drive it's installed on, and basically maxing out my memory (and before you ask, no that's not the drive hosting my pagefile. That's on E:).
 
-![What is going on with you](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoad.png)
+![What is going](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTown.png)
+![on with you](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTaskManager.png)
 
 It's still just preview so there's an excuse to not be perfectly optimized, but sitting in town was pretty rough on my system.
 
