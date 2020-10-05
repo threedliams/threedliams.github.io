@@ -16,6 +16,10 @@ p {
     line-height: 150%;
 }
 
+li {
+    margin-top: 10px;
+}
+
 .home-links div{
     margin: auto;
 }
