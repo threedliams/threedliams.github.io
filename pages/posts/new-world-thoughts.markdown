@@ -10,7 +10,7 @@ Okay with that out of the way, let's get right into it.
 
 ## What I liked
 ### Overall concept
-New World has a lot of ideas that really excite me, and the overall concept reminds me a lot of [Puzzle Pirates](https://en.wikipedia.org/wiki/Puzzle_Pirates), probably because it's the sandbox-style MMO I've played the most of. The sandbox-y elements that really hooked me into this game - the player driven economy, the focus on crafting, and being able to control territory and develop it if you're the faction in charge - all have great potential and remind me of the things I loved about playing Puzzle Pirates as a kid.
+New World has a lot of ideas that really excite me, and the overall concept reminds me a lot of [Puzzle Pirates](https://en.wikipedia.org/wiki/Puzzle_Pirates), probably because it's the sandbox-style MMO I've played the most of. The sandbox-y elements that really hooked me into this game - the player driven economy, the focus on crafting, and being able to control territory and develop it if you're the faction in charge - all have great potential and remind me of the things I loved about playing Puzzle Pirates as a kid. Unfortunately I never got enough money to buy a house and for whatever reason the faction development board was always blank (because it's a preview? Or people just didn't have time to get far enough to use it?), but still... love the ideas!
 
 ### Crafting
 My favorite mechanic in any game is crafting. Don't ask me why, I have no idea - I just love clicking buttons and turning ingredients into objects until I get enough levels to turn advanced ingredients into hyper objects.
@@ -98,22 +98,22 @@ Past that though, why does the whole thing sound like an advertisement? Where's 
 
 When characters don't feel like they have real motivations, they don't feel like they're real people in the world. And when they don't feel like real people, no one cares what happens to them and you just stop reading the quest text and really engaging with the world outside of the loop of combat -> rewards -> harder combat. I think that's _okay_ for some games which is why I didn't put it under the "bad" category, but I think it can make it hard for some people to enjoy the game long term.
 
+### Aggro trains
+Here's another problem WoW solved ages ago: aggro trains or "training". Basically one player, either intentionally or accidentally, aggros a bunch of enemies and runs away. Once they reach the edge of their range they start running back but if you happen to be close by you'll aggro all of them and also have to run away (or fight and die). WoW fixed it by forcing enemies to reset when losing aggro and go all the way back to their usual patrol path before becoming aggressive + attackable again, but it's been fully brought back to life in New World.
+
+Is it because it's a preview? Or is this an intentional feature? Hard to say, but it definitely damages the player experience.
+
 ### Performance
 Load times are **brutal** and on top of that the game seems to be constantly streaming from the hard drive. Here I am sitting at the edge of town doing nothing and it's blasting my CPU, reading ~23MB/s from the hard drive it's installed on, and basically maxing out my memory (and before you ask, no that's not the drive hosting my pagefile. That's on E:).
 
 ![What is going](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTown.png)
 ![on with you](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTaskManager.png)
 
-It's still just preview so there's an excuse to not be perfectly optimized, but sitting in town was pretty rough on my system.
+It's still just a preview so there's an excuse to not be perfectly optimized, but sitting in town was pretty rough on my system.
 
 Also, the floor disappeared
 
 ![I'm floored](https://ramseyopp.com/pages/assets/newWorldThoughts/noFloor.png)
-
-### Aggro trains
-Here's another problem WoW solved ages ago: aggro trains or "training". Basically one player, either intentionally or accidentally, aggros a bunch of enemies and runs away. Once they reach the edge of their range they start running back but if you happen to be close by you'll aggro all of them and also have to run away (or fight and die). WoW fixed it by forcing enemies to reset when losing aggro and go all the way back to their usual patrol path before becoming aggressive + attackable again, but it's been fully brought back to life in New World.
-
-Is it because it's a preview? Or is this an intentional feature? Hard to say, but it definitely damages the player experience.
 
 ---
 
