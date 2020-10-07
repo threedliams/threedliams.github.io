@@ -8,6 +8,8 @@ A few weeks ago I got into the most recent test wave for Amazon's upcoming MMO [
 
 Okay with that out of the way, let's get right into it.
 
+---
+
 ## What I liked
 ### Overall concept
 New World has a lot of ideas that really excite me, and the overall concept reminds me a lot of [Puzzle Pirates](https://en.wikipedia.org/wiki/Puzzle_Pirates), probably because it's the sandbox-style MMO I've played the most of. The sandbox-y elements that really hooked me into this game - the player driven economy, the focus on crafting, and being able to control territory and develop it if you're the faction in charge - all have great potential and remind me of the things I loved about playing Puzzle Pirates as a kid. Unfortunately I never got enough money to buy a house and for whatever reason the faction development board was always blank (because it's a preview? Or people just didn't have time to get far enough to use it?), but still... love the ideas!
