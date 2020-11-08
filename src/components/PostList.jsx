@@ -13,8 +13,12 @@ export const PostList = class extends React.Component {
 		var tag = this.props.match.params.tag;
 		var postMap = this.props.postMap.keySeq().toArray();
 
+		// Please fix me, this is disgusting
+		postMap.sort((a, b) => new Date(this.props.postMap.get(b).get('date')) - new Date(this.props.postMap.get(a).get('date')))
+
 		postMap.forEach(listKey => {
 			var title = this.props.postMap.get(listKey).get('title');
+			const filename = this.props.postMap.get(listKey).get('filename');
 
 			// TODO: tag not found
 			if (tag) {
