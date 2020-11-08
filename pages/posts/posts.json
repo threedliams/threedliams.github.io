@@ -1,89 +1,80 @@
-[
-	{
+{
+	"new-world-thoughts": {
 		"title": "Thoughts on New World",
 		"filename": "new-world-thoughts",
 		"tags": [
 			"game-reviews"
-		],
-		"date": "2020-10-04"
+		]
 	},
-	{
+	"why-rebuild": {
 		"title": "Why Rebuild?",
 		"filename": "why-rebuild",
 		"tags": [
 			"development",
 			"web-dev"
-		],
-		"date": "2018-01-11"
+		]
 	},
-	{
+	"old-roguelike-project": {
 		"title": "Old Roguelike Project",
 		"filename": "old-roguelike-project",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-05-01"
+		]
 	},
-	{
+	"broken-bootloader": {
 		"title": "Broken Bootloader",
 		"filename": "broken-bootloader",
 		"tags": [
 			"development",
 			"os-dev",
 			"old-posts"
-		],
-		"date": "2015-03-01"
+		]
 	},
-	{
+	"cosmic-insurgence-update-0-0-05": {
 		"title": "Cosmic Insurgence Update 0.0.05",
 		"filename": "cosmic-insurgence-update-0-0-05",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-01-24"
+		]
 	},
-	{
+	"cosmic-insurgence-update-0-0-04": {
 		"title": "Cosmic Insurgence Update 0.0.04",
 		"filename": "cosmic-insurgence-update-0-0-04",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-01-23"
+		]
 	},
-	{
+	"cosmic-insurgence-update-0-0-03": {
 		"title": "Cosmic Insurgence Update 0.0.03",
 		"filename": "cosmic-insurgence-update-0-0-03",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-01-22"
+		]
 	},
-	{
+	"cosmic-insurgence-update-0-0-02": {
 		"title": "Cosmic Insurgence Update 0.0.02",
 		"filename": "cosmic-insurgence-update-0-0-02",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-01-21"
+		]
 	},
-	{
+	"cosmic-insurgence-new-project": {
 		"title": "Cosmic Insurgence (New Project)",
 		"filename": "cosmic-insurgence-new-project",
 		"tags": [
 			"development",
 			"game-dev",
 			"old-posts"
-		],
-		"date": "2015-01-20"
+		]
 	}
-]
+}
