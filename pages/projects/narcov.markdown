@@ -5,7 +5,7 @@ The callbacks are all written in JSON using what I thought would be a more intui
 
 Besides the callbacks you can also generate markov chains based off of individual or combined chat history. So to generate a markov chain from just my history I would use `!markov me`, but if I wanted to generate a combination of my history and my friend Eric's history I would do `!markov me + [Eric's username]`. You can also `!markov everyone` and `!markov random`.
 
-![narcov](https://ramseyopp.com/pages/projects/narcov.png)
+![narcov](/pages/projects/narcov.png)
 
 In addition to markov, the other genericly available functions are `!magic [question]` which generates a magic 8 ball response, and `!roll [x]d[y]` to roll x number of y sided dice and add the results.
 

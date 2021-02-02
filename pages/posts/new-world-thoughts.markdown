@@ -88,13 +88,13 @@ You were a sailor of some kind, your boat crashed and you made it to the shore b
 ### Dialogue
 At times the dialogue can be _really_ stiff and awkward. Check out this screenshot:
 
-![I am Barkeep Polly](https://ramseyopp.com/pages/assets/newWorldThoughts/barkeepPolly.png)
+![I am Barkeep Polly](/pages/assets/newWorldThoughts/barkeepPolly.png)
 
 "I am Barkeep Polly", really? Who talks like that? If I walked up to someone and introduced myself with "I am Programmer Ramsey" they'd slowly and carefully back away from me. It's like introducing yourself by your Pokémon trainer class, like "I am [Super Nerd](https://bulbapedia.bulbagarden.net/wiki/Super_Nerd_(Trainer_class))".
 
 Past that though, why does the whole thing sound like an advertisement? Where's any of the emotional impact? What I loved about (at least some) quests in WoW was that there was a meaningful backstory. "My business partner went missing", "My wife got left behind", "I'm really hungry for this specific pie" all of those felt more meaningful than "Hey do ya want some loot, boyo? `I am Barkeep Polly`". Even the completion text feels like it's breaking the 4th wall:
 
-![Polly's rewards](https://ramseyopp.com/pages/assets/newWorldThoughts/pollyReward.png)
+![Polly's rewards](/pages/assets/newWorldThoughts/pollyReward.png)
 
 "Now that is quite the loot haul!" Remember, you're playing a game! Gotta get that loot! That Regent I didn't tell you about that I had no idea was there because I haven't left this bar never stood a chance!
 
@@ -108,14 +108,14 @@ Is it because it's a preview? Or is this an intentional feature? Hard to say, bu
 ### Performance
 Load times are **brutal** and on top of that the game seems to be constantly streaming from the hard drive. Here I am sitting at the edge of town doing nothing and it's blasting my CPU, reading ~23MB/s from the hard drive it's installed on, and basically maxing out my memory (and before you ask, no that's not the drive hosting my pagefile. That's on E:).
 
-![What is going](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTown.png)
-![on with you](https://ramseyopp.com/pages/assets/newWorldThoughts/highLoadTaskManager.png)
+![What is going](/pages/assets/newWorldThoughts/highLoadTown.png)
+![on with you](/pages/assets/newWorldThoughts/highLoadTaskManager.png)
 
 It's still just a preview so there's an excuse to not be perfectly optimized, but sitting in town was pretty rough on my system.
 
 Also, the floor disappeared
 
-![I'm floored](https://ramseyopp.com/pages/assets/newWorldThoughts/noFloor.png)
+![I'm floored](/pages/assets/newWorldThoughts/noFloor.png)
 
 ---
 

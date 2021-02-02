@@ -3,4 +3,4 @@ This small, goofy project came out of a promise I jokingly made to a few friends
 
 ...Unfortunately everyone else ended up being busy, so on Sunday I built 2 pants-pooping minigames alone.
 
-![crappy](https://ramseyopp.com/pages/projects/crappyGames.png)
+![crappy](/pages/projects/crappyGames.png)

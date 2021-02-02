@@ -18,16 +18,16 @@ It's a cash grab. Obviously. It's a completely souless cash grab. It's some exec
 ## Why does it look like this?
 Visually, it's a mess. I get it, you've gotta have the eye catching skins to trick the kids into spending money, but is this really the best you had to offer?
 
-![Woof](https://ramseyopp.com/pages/assets/whyWorms/bad.png)
+![Woof](/pages/assets/whyWorms/bad.png)
 Good Lord, we look terrible.
 
 And these teeth, just... I don't even have anything clever to say. Just why.
 
-![✅ Top Teeth](https://ramseyopp.com/pages/assets/whyWorms/teeth.png)
+![✅ Top Teeth](/pages/assets/whyWorms/teeth.png)
 
 Maybe this whole thing is supposed to be a joke? Is this a parody of what the games industry has become? Am I just missing the humor? Is that why the entire city looks like untextured assets someone found for free online?
 
-![Rockin' that default game-engine gray](https://ramseyopp.com/pages/assets/whyWorms/untextured.png)
+![Rockin' that default game-engine gray](/pages/assets/whyWorms/untextured.png)
 
 Or are they leaving that open so that they can sell city skins later?
 
@@ -35,34 +35,34 @@ Whatever this game is supposed to be, it's making me lose my mind.
 
 But hey, at least you can roll into a funny little ball. Guess it's not all bad.
 
-![Funny ball](https://ramseyopp.com/pages/assets/whyWorms/ball.png)
+![Funny ball](/pages/assets/whyWorms/ball.png)
 
 ## WHY DO THEY ALL MAKE THIS FACE?
 [And they all make this face](http://i.imgur.com/LuYTe.jpeg)
 
 And.
 
-![and](https://ramseyopp.com/pages/assets/whyWorms/and.png)
+![and](/pages/assets/whyWorms/and.png)
 
 They.
 
-![they](https://ramseyopp.com/pages/assets/whyWorms/they.png)
+![they](/pages/assets/whyWorms/they.png)
 
 All.
 
-![all](https://ramseyopp.com/pages/assets/whyWorms/all.png)
+![all](/pages/assets/whyWorms/all.png)
 
 Make.
 
-![make](https://ramseyopp.com/pages/assets/whyWorms/make.png)
+![make](/pages/assets/whyWorms/make.png)
 
 This.
 
-![this](https://ramseyopp.com/pages/assets/whyWorms/this.png)
+![this](/pages/assets/whyWorms/this.png)
 
 Face.
 
-![face](https://ramseyopp.com/pages/assets/whyWorms/face.png)
+![face](/pages/assets/whyWorms/face.png)
 
 ## In conclusion
 I think it's telling that despite the fact this studio has been putting out Worms games for almost 3 decades now, the only one people actually like and still play is Worms Armageddon from 1999.
@@ -92,4 +92,4 @@ Maybe it's time to move on.
 
 Or maybe I'm just a hater.
 
-![dab](https://ramseyopp.com/pages/assets/whyWorms/dab.png)
+![dab](/pages/assets/whyWorms/dab.png)

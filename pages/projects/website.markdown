@@ -3,4 +3,4 @@ Originally put together using the Jekyll blog framework, then re-built from scra
 
 Overall I found React/Redux much easier to learn and more enjoyable to write and test than frameworks I've used in the past (Backbone with Mustache). As someone who was trained on more traditional application and systems programming, it was surprisingly intuitive and I didn't have any issues with the paradigm-shift like I've struggled with a bit during past web-dev experiences.
 
-You can read a bit more about why I rebuilt it [here](https://ramseyopp.com/post/why-rebuild)
+You can read a bit more about why I rebuilt it [here](/post/why-rebuild)

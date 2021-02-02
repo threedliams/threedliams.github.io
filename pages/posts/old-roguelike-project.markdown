@@ -7,7 +7,7 @@ However, we did manage to code a good amount of a basic roguelike engine using t
 
 Pathing:
 
-![pathing example](https://ramseyopp.com/pages/assets/oldProject/pathing1.gif)
+![pathing example](/pages/assets/oldProject/pathing1.gif)
 
 This gif I created is a visual representation of the pathing algorithm calculating the shortest path between an off screen enemy and the player behind a wall.
 
@@ -15,7 +15,7 @@ The pathing algorithm used here is a naive version of the A* algorithm, meaning 
 
 FOV:
 
-![fov example](https://ramseyopp.com/pages/assets/oldProject/FOV.gif)
+![fov example](/pages/assets/oldProject/FOV.gif)
 
 This gif shows off the FOV algorithm, and how the different angles and distances from the wall segment effect the vision of the player.
 
@@ -23,13 +23,13 @@ The FOV algorithm used is a simple ray casting algorithm. Although the example m
 
 Exploration and Limited FOV:
 
-![exploration example](https://ramseyopp.com/pages/assets/oldProject/exploration.gif)
+![exploration example](/pages/assets/oldProject/exploration.gif)
 
 Not as much going on here programmatically, this just shows how the FOV behaves when it is limited to a smaller size, and demostrates map memorization. The dark yellow spaces are areas that have been touched by the FOV, and are now remembered by the player as a result. This means the player won't forget where they've been and backtrack endlessly.
 
 Using the Full Window:
 
-![full window example](https://ramseyopp.com/pages/assets/oldProject/fullWindow.jpg)
+![full window example](/pages/assets/oldProject/fullWindow.jpg)
 
 This static image takes advantage of the full capabilities of the graphics window we set up. This should give you a better idea of how the game would actually look, with the map in the center moving according to the player surrounded by the various message displaying windows.
 
