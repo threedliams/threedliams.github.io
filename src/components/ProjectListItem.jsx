@@ -10,11 +10,17 @@ export default class ProjectListItem extends React.Component {
             play,
             playComment,
             image,
+            website,
         } = this.props;
+
+        let aboutLink = <span />;
+        if (about) {
+                aboutLink =  (<span>&nbsp;- <InternalLink title="about" location={about}/></span>);
+        }
 
         let playLink = <span />;
         if (play) {
-            playLink = (<span>&nbsp;- <a href={play}>play!</a>{playComment}</span>)
+            playLink = (<span>&nbsp;- <a href={play}>play!</a>{playComment}</span>);
         }
         
         let imageTag = <span />;
@@ -22,14 +28,18 @@ export default class ProjectListItem extends React.Component {
             imageTag = (<a href={about}><img src={image} className="project-thumbnail"/></a>);
         }
 
+        let websiteLink = <span />;
+        if (website) {
+            websiteLink = (<span>&nbsp;- <a href={website}>website</a></span>);
+        }
+
         return (
             <div className="card">
                 <li>{imageTag}<br />
                         <div  className="container">
-                        {name} - <InternalLink
-                            title="about"
-                            location={about}
-                        />
+                        {name}
+                        {aboutLink}
+                        {websiteLink}
                         &nbsp;- <a href={repo}>repo</a>
                         {playLink}
                     </div>

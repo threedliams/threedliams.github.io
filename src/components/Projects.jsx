@@ -21,6 +21,12 @@ export default class Projects extends React.Component {
 				image: "/pages/assets/projectThumbnails/particleFilter.png",
 			},
 			{
+				name: "Chode.js",
+				website: "https://www.chodejs.com",
+				repo: "https://github.com/threedliams/chode.js",
+				image: "/pages/assets/projectThumbnails/chodejs.png",
+			},
+			{
 				name: "HughBorg",
 				about: "/projects/hughborg",
 				repo: "https://github.com/threedliams/HughBorg",
@@ -68,6 +74,7 @@ export default class Projects extends React.Component {
 								play={item.play}
 								playComment={item.playComment}
 								image={item.image}
+								website={item.website}
 							/>
 						})
 					}
