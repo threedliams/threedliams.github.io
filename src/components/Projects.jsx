@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
 		const posts = [
 			{
 				name: "CallbackBot (narcov)",
-				about: "/projects/CallbackBot",
+				about: "/projects/callbackBot",
 				repo: "https://github.com/threedliams/CallbackBot",
 				image: "/pages/assets/projectThumbnails/narcov.png",
 			},
