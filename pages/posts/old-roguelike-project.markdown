@@ -13,6 +13,8 @@ This gif I created is a visual representation of the pathing algorithm calculati
 
 The pathing algorithm used here is a naive version of the A* algorithm, meaning the only heuristic used in calculation is the distance between the current node and the goal node. The "o" tiles represent nodes that have been added to the open set, the "x" tiles represent tiles that have been added to the closed set, and the "!" tiles represent the final calculated path.
 
+_Interesting tidbit: the pathing actually had a fundamental bug in it that was causing the pathing to not work correctly. Didn't end up discovering it until years later (and even then it wasn't me, it was a project team mate) when we reused this pathing code to do A* for our [particle filter localization project](/projects/localization). [Here's the commit that ended up fixing it](https://github.com/threedliams/MutationRoguelike/commit/a8a4d177f8ece34752f701a734f3bc8cfb8a6bfc). No idea how this gif worked at all without that change._
+
 FOV:
 
 ![fov example](/pages/assets/oldProject/FOV.gif)
