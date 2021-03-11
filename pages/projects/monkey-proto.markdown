@@ -5,4 +5,4 @@ This project was the accidental result of a game-dev team I put together. We wer
 
 We eventually all got too busy with our actual jobs and other commitments to continue, so we split up and all I have to show for it is this little monkey game. I think it's oddly entertaining though so I'm not that upset.
 
-![monkeys throwing poop](/pages/projects/monkeyProto.png)
+![monkeys throwing poop](/pages/projects/monkey-proto.png)

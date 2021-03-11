@@ -25,7 +25,7 @@ export default class ProjectListItem extends React.Component {
         
         let imageTag = <span />;
         if (image) {
-            imageTag = (<a href={about}><img src={image} className="project-thumbnail"/></a>);
+            imageTag = (<a href={about ? about : website}><img src={image} className="project-thumbnail"/></a>);
         }
 
         let websiteLink = <span />;

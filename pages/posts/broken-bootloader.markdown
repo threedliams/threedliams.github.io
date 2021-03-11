@@ -1,7 +1,7 @@
 # Broken Bootloader
 Starting this OS project I'm coming at it with the idea that I want to do as much from scratch as possible. Because of that I opted to write my own bootloader, which has been met with mixed results. As you can see I did get it to display some messages on the screen:
 
-![welcome screen](/pages/assets/brokenBootloader/welcomeScreen.jpg)
+![welcome screen](/pages/assets/brokenBootloader/welcome-screen.jpg)
 
 As you can see it prints a welcome message and tells you that it's trying to enter protected mode. However somewhere on the way to protected mode I get this:
 

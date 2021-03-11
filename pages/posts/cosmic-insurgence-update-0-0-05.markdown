@@ -66,15 +66,15 @@ In order to better visualize these changes, I also added a results page on the g
 
 This is result page you get when the good trigger fires after choosing option 1:
 
-![good trigger](/pages/assets/update0-0-05/goodTrigger.jpg)
+![good trigger](/pages/assets/update-0-0-05/good-trigger.jpg)
 
 And this is what shows up when you get the bad trigger:
 
-![bad trigger](/pages/assets/update0-0-05/badTrigger.jpg)
+![bad trigger](/pages/assets/update-0-0-05/bad-trigger.jpg)
 
 I also made a couple small changes to the main screen:
 
-![main screen](/pages/assets/update0-0-05/newMainScreen.jpg)
+![main screen](/pages/assets/update-0-0-05/new-main-screen.jpg)
 
 There is a quit button in the bottom left, and the resource values are now represented as doubles. This is to allow for the affinity calculations for income to work correctly later down the line.
 

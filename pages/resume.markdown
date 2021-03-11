@@ -1,1 +1,1 @@
-[Resume PDF](/pages/assets/Ramsey_Opp_Resume.pdf)
+[Resume PDF](/pages/assets/ramsey-opp-resume.pdf)

@@ -29,7 +29,7 @@ The most exciting part of this is definitely the triggers, as everything else wa
 
 From a graphical point of view, this looks exactly the same as the previous sample events, but it's much more (that is to say, at all) functional that the earlier versions. Now if I select this option, I can get a number to count up, which doesn't look very exciting in a static picture, but here it is anyway:
 
-![counting up](/pages/assets/update0-0-02/newMainScreen.jpg)
+![counting up](/pages/assets/update-0-0-02/new-main-screen.jpg)
 
 The Main screen was changed slightly to show a few of the player's current resources for testing purposes.
 
